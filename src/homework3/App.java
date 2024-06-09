@@ -2,6 +2,17 @@ package homework3;
 
 public class App {
     public static void main(String[] args) {
-        //только начал , будет позже
+
+        TV tv = new TV();
+        System.out.println("Ваш телевизор: " + tv);
+        TV tv1 = new TV();
+        System.out.println("Ваш телевизор: " + tv1);
+        TV tv2 = new TV();
+        System.out.println("Ваш телевизор: " + tv2);
+
+
+
+
+
     }
 }
