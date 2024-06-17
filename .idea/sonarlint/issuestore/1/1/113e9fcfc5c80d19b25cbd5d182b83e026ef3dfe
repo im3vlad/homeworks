@@ -1,0 +1,16 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÿ§ëû
+~
+java:S4165"cRemove this useless assignment; "color" already holds the assigned value along all execution paths.(šéùıÿÿÿÿ
+~
+java:S4165
+"cRemove this useless assignment; "model" already holds the assigned value along all execution paths.(‡»Ø©üÿÿÿÿ
+x
+java:S4165	"cRemove this useless assignment; "brand" already holds the assigned value along all execution paths.(ôç»W
+J
+java:S1656"/Remove or correct this useless self-assignment.(šéùıÿÿÿÿ
+J
+java:S1656
+"/Remove or correct this useless self-assignment.(‡»Ø©üÿÿÿÿ
+D
+java:S1656	"/Remove or correct this useless self-assignment.(ôç»W

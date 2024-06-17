@@ -15,18 +15,6 @@ public class App {
         Televisions tv7 = new Televisions();
         Televisions tv8 = new Televisions();
         Televisions tv9 = new Televisions();
-        Scanner sc = new Scanner(System.in);
-        tv0.setBrand(sc.nextLine());
-        tv1.setBrand(sc.nextLine());
-        tv2.setBrand(sc.nextLine());
-        tv3.setBrand(sc.nextLine());
-        tv4.setBrand(sc.nextLine());
-        tv5.setBrand(sc.nextLine());
-        tv6.setBrand(sc.nextLine());
-        tv7.setBrand(sc.nextLine());
-        tv8.setBrand(sc.nextLine());
-        tv9.setBrand(sc.nextLine());
-        System.out.println();
 
     }
 }
