@@ -47,3 +47,5 @@ Q.idea/sonarlint/securityhotspotstore/3/8/384d50e4fdeaf122431c9e232afacf113f06c3
 Q.idea/sonarlint/securityhotspotstore/5/5/55e34ee1fe9391b802dd3b71cf97b20277a10b5e,7\7\7775510073ce796878e970942a1b0b51503d708a
 Å
 Q.idea/sonarlint/securityhotspotstore/5/6/563da028614e21749695b15fccd4a385e70d8346,0\5\051e61a799f7116a3ca6f73de5fa35e78ce3ac0d
+H
+src/homework01/Game.java,3\8\384d50e4fdeaf122431c9e232afacf113f06c3ca
