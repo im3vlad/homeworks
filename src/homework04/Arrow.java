@@ -1,4 +1,4 @@
-package homework4;
+package homework04;
 
 public class Arrow {
     public static void main(String[] args) {

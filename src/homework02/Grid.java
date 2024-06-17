@@ -1,4 +1,4 @@
-package grid;
+package homework02;
 
 public class Grid {
     public static void main(String[] args) {

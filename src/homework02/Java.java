@@ -1,4 +1,4 @@
-package Java;
+package homework02;
 
 public class Java {
     public static void main(String[] args) {
