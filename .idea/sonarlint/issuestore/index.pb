@@ -49,3 +49,9 @@ Q.idea/sonarlint/securityhotspotstore/5/5/55e34ee1fe9391b802dd3b71cf97b20277a10b
 Q.idea/sonarlint/securityhotspotstore/5/6/563da028614e21749695b15fccd4a385e70d8346,0\5\051e61a799f7116a3ca6f73de5fa35e78ce3ac0d
 H
 src/homework01/Game.java,3\8\384d50e4fdeaf122431c9e232afacf113f06c3ca
+N
+src/homework03/Television.java,1\1\113e9fcfc5c80d19b25cbd5d182b83e026ef3dfe
+G
+src/homework03/App.java,6\6\662333f00d2c5939b5d7a7f4ecec4b40b8ea46d4
+K
+src/homework05/Utilita.java,8\4\847d25de03b645ee4989d6e952667b860eb5cc02

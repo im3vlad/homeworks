@@ -1,2 +1,26 @@
 
-š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ø«–ÎıÿÿÿÿJ$6920e68d-c173-476f-a57c-d4b6134fe8cb
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ø«–Îıÿÿÿÿ8’Ú±Ù‚2J$58e281c4-cee8-4401-9cb5-e0ade6fbbb62
+«
+java:S4165"cRemove this useless assignment; "model" already holds the assigned value along all execution paths.(‡»Ø©üÿÿÿÿ8’Ú±Ù‚2J$9d8a06d7-81b3-4aff-aa3b-9e8f7bb2b9fa
+¬
+java:S4165"dRemove this useless assignment; "toggle" already holds the assigned value along all execution paths.(â‹…øÿÿÿÿ8’Ú±Ù‚2J$6f565c12-5289-4095-a0d4-183173dd4e5d
+³
+java:S4165"kRemove this useless assignment; "numberChannel" already holds the assigned value along all execution paths.(«·­¾øÿÿÿÿ8“Ú±Ù‚2J$ec273ed2-85fe-4bb7-a794-5a65d28aa75d
+¥
+java:S4165"cRemove this useless assignment; "brand" already holds the assigned value along all execution paths.(ôç»W8’Ú±Ù‚2J$2afebdc1-02e6-4e39-9f62-27662fb87cee
+§
+java:S4165"dRemove this useless assignment; "volume" already holds the assigned value along all execution paths.(•¶×°8’Ú±Ù‚2J$c832a7fb-f2df-4d23-9e42-6093eb1111f5
+«
+java:S4165"cRemove this useless assignment; "color" already holds the assigned value along all execution paths.(šéùıÿÿÿÿ8’Ú±Ù‚2J$8a2c01f1-9761-4c58-afa0-7cdf6779f27b
+w
+java:S1656"/Remove or correct this useless self-assignment.(šéùıÿÿÿÿ8”Ú±Ù‚2J$3f063ecb-fca7-44bb-bd7a-fa4ddf413077
+w
+java:S1656"/Remove or correct this useless self-assignment.(‡»Ø©üÿÿÿÿ8•Ú±Ù‚2J$55aa6f4e-a582-4de4-a7cb-51ec13a0f683
+q
+java:S1656"/Remove or correct this useless self-assignment.(ôç»W8•Ú±Ù‚2J$951daf72-e1cb-4e90-b46a-305077384eff
+r
+java:S1656"/Remove or correct this useless self-assignment.(•¶×°8•Ú±Ù‚2J$183bbeb6-9b9c-43a4-94b8-0a9d41984717
+w
+java:S1656"/Remove or correct this useless self-assignment.(â‹…øÿÿÿÿ8•Ú±Ù‚2J$10a7e7e2-1136-4978-b9ed-5f4f3cd54bf6
+w
+java:S1656"/Remove or correct this useless self-assignment.(«·­¾øÿÿÿÿ8•Ú±Ù‚2J$df984167-db68-4381-b5e6-5cffedb71efc
