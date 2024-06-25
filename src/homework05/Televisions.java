@@ -1,5 +1,7 @@
 package homework05;
 
+import java.util.Objects;
+
 public class Televisions {
     private String brand;
     private String model;
@@ -8,7 +10,7 @@ public class Televisions {
     private Integer volume;
     private boolean toggle;
 
-    public Televisions(String brand, String model, String color, Integer numberChannel, Integer volume, boolean toggle) {
+    public Televisions() {
         this.brand = brand;
         this.model = model;
         this.color = color;
@@ -17,12 +19,30 @@ public class Televisions {
         this.toggle = toggle;
     }
 
-    public Televisions() {
-        this.brand = getBrand();
+    @Override
+    public String toString() {
+        return "Televisions{" +
+                "brand='" + brand + '\'' +
+                ", model='" + model + '\'' +
+                ", color='" + color + '\'' +
+                ", numberChannel=" + numberChannel +
+                ", volume=" + volume +
+                ", toggle=" + toggle +
+                '}';
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Televisions that = (Televisions) o;
+        return toggle == that.toggle && Objects.equals(brand, that.brand) && Objects.equals(model, that.model) && Objects.equals(color, that.color) && Objects.equals(numberChannel, that.numberChannel) && Objects.equals(volume, that.volume);
+    }
 
-    public String toString () {return brand + model + color + numberChannel + volume + toggle; }
+    @Override
+    public int hashCode() {
+        return Objects.hash(brand, model, color, numberChannel, volume, toggle);
+    }
 
     public String getBrand() {
         return brand;

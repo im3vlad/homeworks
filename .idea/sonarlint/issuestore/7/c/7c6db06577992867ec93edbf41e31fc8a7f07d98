@@ -1,0 +1,52 @@
+
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ø«–Îıÿÿÿÿ8ö£ªÜ‚2J$a5ce798c-9b16-4534-a443-c1a241c49aa6
+€
+java:S1854"=Remove this useless assignment to local variable "maxVolume".(Û¾Â©8´µÜ‚2J$94bb6f23-8c9f-4405-beb3-eb6f56301be5
+z
+java:S1854"7Remove this useless assignment to local variable "tv9".(ª…½á8ö£ªÜ‚2J$cd322c03-1393-4371-b2ee-f1eff1747eb2
+
+java:S1854"7Remove this useless assignment to local variable "tv8".(êÙÍåüÿÿÿÿ8ö£ªÜ‚2J$546ec1be-6bce-4e1b-9d46-233713b19465
+
+java:S1854"7Remove this useless assignment to local variable "tv7".(°Ğûÿÿÿÿ8ö£ªÜ‚2J$75e0971b-6618-470c-bd72-830e01c5b44f
+
+java:S1854"7Remove this useless assignment to local variable "tv6".(×ıäıÿÿÿÿ8ö£ªÜ‚2J$de60ccff-ee0e-4ea2-974c-e158444c864a
+
+java:S1854"7Remove this useless assignment to local variable "tv5".(åƒ’©ıÿÿÿÿ8ö£ªÜ‚2J$23562952-3f55-4fb0-ae02-fe60c3788bc3
+
+java:S1854"7Remove this useless assignment to local variable "tv4".(ŸÊÿêúÿÿÿÿ8ö£ªÜ‚2J$7d08911c-5ce6-4c70-9474-e1d4bb6341ef
+
+java:S1854
+"7Remove this useless assignment to local variable "tv3".(ÎùÙÌûÿÿÿÿ8ö£ªÜ‚2J$99b00dd1-7a88-488b-8c68-96552ab366f5
+
+java:S1854	"7Remove this useless assignment to local variable "tv2".(’Î¶—şÿÿÿÿ8ö£ªÜ‚2J$9d2fb6f4-6862-42e4-8f5d-00a70b720567
+
+java:S1854"7Remove this useless assignment to local variable "tv1".(¢÷‰şÿÿÿÿ8ö£ªÜ‚2J$442031cd-f393-4e1e-b6da-0df3afadd46a
+p
+java:S1481"(Remove this unused "tv1" local variable.(¢÷‰şÿÿÿÿ8ö£ªÜ‚2J$e2c5a9d2-c7cb-4e8a-8848-1b9d6d38de83
+p
+java:S1481	"(Remove this unused "tv2" local variable.(’Î¶—şÿÿÿÿ8ö£ªÜ‚2J$b756cc69-3004-477f-8641-05d359e30bd6
+p
+java:S1481
+"(Remove this unused "tv3" local variable.(ÎùÙÌûÿÿÿÿ8ö£ªÜ‚2J$06d214d0-aa1e-4997-b975-822ccd258386
+p
+java:S1481"(Remove this unused "tv4" local variable.(ŸÊÿêúÿÿÿÿ8ö£ªÜ‚2J$585ea032-e38c-4654-ae9f-abfee1bee4e6
+p
+java:S1481"(Remove this unused "tv5" local variable.(åƒ’©ıÿÿÿÿ8ö£ªÜ‚2J$9ea08850-383d-4c8e-afdb-0cb2471fdc1d
+p
+java:S1481"(Remove this unused "tv6" local variable.(×ıäıÿÿÿÿ8ö£ªÜ‚2J$73da7539-fbe8-46b1-bf31-3a188e946320
+p
+java:S1481"(Remove this unused "tv7" local variable.(°Ğûÿÿÿÿ8ö£ªÜ‚2J$81e9be84-0bf6-4e78-b6ce-b3bda9478e1f
+p
+java:S1481"(Remove this unused "tv8" local variable.(êÙÍåüÿÿÿÿ8ö£ªÜ‚2J$e9c73b5c-311e-436c-9715-97e8e9b9f57d
+k
+java:S1481"(Remove this unused "tv9" local variable.(ª…½á8ö£ªÜ‚2J$b56c3690-93ad-4c1d-9c0a-0e2a3cdbddea
+l	java:S106"+Replace this use of System.out by a logger.(ì×«%8ö£ªÜ‚2J$b84fbdfc-7b68-437a-afb2-83b3b4e85532
+q
+java:S1481".Remove this unused "maxVolume" local variable.(Û¾Â©8‚´µÜ‚2J$7d698c22-6fda-4516-95f4-402da288b552
+r	java:S106"+Replace this use of System.out by a logger.(Áò€æøÿÿÿÿ8ö£ªÜ‚2J$765ece85-314d-4241-958a-5c2c0debec85
+r	java:S106"+Replace this use of System.out by a logger.(Ÿ§£Úıÿÿÿÿ8ö£ªÜ‚2J$f717a732-c5bd-4877-9906-6476af6d65b0
+r	java:S106"+Replace this use of System.out by a logger.(»ò¡îüÿÿÿÿ8ö£ªÜ‚2J$dd8f415f-8b86-4bef-b9a8-9572528d1a54
+r	java:S106"+Replace this use of System.out by a logger.(½ÿñûÿÿÿÿ8ö£ªÜ‚2J$4e034ffc-7b3b-4a38-82e7-95b0cb1dcb20
+m	java:S106"+Replace this use of System.out by a logger.(½Äÿ8”Ğ­Ü‚2J$d677e45e-b470-425e-ba0f-865774328595
+p	java:S108"")Either remove or fill this block of code.(Ö¬Èşÿÿÿÿ8ö£ªÜ‚2J$56e8a831-c955-4b38-8115-d92a8197b603
+r	java:S106%"+Replace this use of System.out by a logger.(£ØÒÛúÿÿÿÿ8ŸÃ®Ü‚2J$8053000c-29f4-4732-b77b-a1011bf71bb9
