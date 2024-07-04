@@ -3,27 +3,23 @@ package homework06;
 import java.util.Objects;
 
 public class Person {
-    String name;
-    int sumMoney;
-    String packageProduct;
+    private String name;
+    private int sumMoney;
+    Product[] packageProduct = new Product[3];//пакет продуктов(массив)
 
-    public Person(String name, int sumMoney, String packageProduct) {
+    /*public Person(String name, int sumMoney) {
         this.name = name;
         this.sumMoney = sumMoney;
-        this.packageProduct = packageProduct;
-    }
+    }*/
 
     @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Person person = (Person) o;
-        return sumMoney == person.sumMoney && Objects.equals(name, person.name) && Objects.equals(packageProduct, person.packageProduct);
+    public String toString() {
+        return "Имя: " + name + " Сумма денег: " + sumMoney;
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(name, sumMoney, packageProduct);
+        return Objects.hash(name, sumMoney);
     }
 
     public String getName() {
@@ -40,13 +36,5 @@ public class Person {
 
     public void setSumMoney(int sumMoney) {
         this.sumMoney = sumMoney;
-    }
-
-    public String getPackageProduct() {
-        return packageProduct;
-    }
-
-    public void setPackageProduct(String packageProduct) {
-        this.packageProduct = packageProduct;
     }
 }
