@@ -13,6 +13,14 @@ public class Person {
     }*/
 
     @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Person person = (Person) o;
+        return sumMoney == person.sumMoney && Objects.equals(name, person.name) && Objects.deepEquals(packageProduct, person.packageProduct);
+    }
+
+    @Override
     public String toString() {
         return "Имя: " + name + " Сумма денег: " + sumMoney;
     }

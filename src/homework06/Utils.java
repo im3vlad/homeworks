@@ -9,14 +9,14 @@ public class Utils {
         Person person = new Person();
         System.out.println("Введите имя покупателя: ");
         String name = sc.nextLine();
-        if (name.isEmpty() && name.isBlank()) {
+        if (name.isEmpty() && name.isBlank()) {//проверяем строку на пустоту
             System.out.println("Имя не может быть пустым");
             return null;
         }
         person.setName(name);
         System.out.println("Введите сумму денег покупателя: ");
         int sumMoney = sc.nextInt();
-        if (sumMoney < 0) {
+        if (sumMoney < 0) {//проверяем на отрицательное число
             System.out.println("Деньги не могут быть отрицательными: ");
             return null;
         }
@@ -29,7 +29,7 @@ public class Utils {
         Product product = new Product();
         System.out.println("Введите название продукта: ");
         String productName = sc.nextLine();
-        if (productName.isEmpty() && productName.isBlank()){
+        if (productName.isEmpty() && productName.isBlank()){//проверяем строку на пустоту
             System.out.println("Название не может быть пустым: ");
             return null;
         }
