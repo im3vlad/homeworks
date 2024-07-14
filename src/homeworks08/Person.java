@@ -1,6 +1,5 @@
 package homeworks08;
 
-import homeworks07.Product;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -12,7 +11,7 @@ public class Person {
     private String name;
     private double money;
 
-    private  homeworks07.Product[] productsPackage = new homeworks07.Product[PRODUCT_BAG];
+    private Product[] productsPackage = new Product[PRODUCT_BAG];
 
     public Person() {}
 
@@ -28,7 +27,7 @@ public class Person {
         return money;
     }
 
-    public homeworks07.Product[] getProductsPackage() {
+    public Product[] getProductsPackage() {
         return productsPackage;
     }
 
@@ -68,11 +67,11 @@ public class Person {
         this.money = money;
     }
 
-    public void setProductsPackage(homeworks07.Product product) throws Exception {
+    public void setProductsPackage(Product product) throws Exception {
         if (this.money < product.getPrice()) {
             System.out.println(this.name + " не может себе позволить " + product.getNameProduct() );
         } else {
-            ArrayList<homeworks07.Product> products = new ArrayList<>(Arrays.asList(productsPackage));
+            ArrayList<Product> products = new ArrayList<>(Arrays.asList(productsPackage));
             products.add(product);
 
             this.productsPackage = products.toArray(productsPackage);
@@ -97,7 +96,7 @@ public class Person {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        homeworks07.Person person = (homeworks07.Person) o;
+        Person person = (Person) o;
         return Double.compare(getMoney(), person.getMoney()) == 0 && Objects.equals(getName(), person.getName()) && Arrays.equals(getProductsPackage(), person.getProductsPackage());
     }
 

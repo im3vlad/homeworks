@@ -35,4 +35,4 @@ public class DiscountProduct extends Product{
         return "Продукт со скидкой: "+ discount ;
     }
 }
-}
+

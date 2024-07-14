@@ -64,7 +64,7 @@ public class Product {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        homeworks07.Product product = (homeworks07.Product) o;
+        Product product = (Product) o;
         return Double.compare(getPrice(), product.getPrice()) == 0 && Objects.equals(getNameProduct(), product.getNameProduct());
     }
 
