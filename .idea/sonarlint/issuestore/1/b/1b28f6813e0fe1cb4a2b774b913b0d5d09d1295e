@@ -1,0 +1,21 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.( ¤Ó
+[	java:S112%"FDefine and throw a dedicated exception instead of using a generic one.(‹ÄìÆ
+Z	java:S112#"FDefine and throw a dedicated exception instead of using a generic one.(»Ÿã
+[	java:S1120"FDefine and throw a dedicated exception instead of using a generic one.(‹ÄìÆ
+`	java:S112+"FDefine and throw a dedicated exception instead of using a generic one.(óìØ³ûÿÿÿÿ
+`	java:S1127"FDefine and throw a dedicated exception instead of using a generic one.(ü¶œúùÿÿÿÿ
+`	java:S1125"FDefine and throw a dedicated exception instead of using a generic one.(¡§¦šüÿÿÿÿ
+`	java:S112A"FDefine and throw a dedicated exception instead of using a generic one.(ü¶œúùÿÿÿÿ
+[	java:S112<"FDefine and throw a dedicated exception instead of using a generic one.(İÎü 
+E	java:S106,"+Replace this use of System.out by a logger.(·œÄîûÿÿÿÿ
+S
+java:S1117-"8Rename "name" which hides the field declared at line 11.(Ü°ŒŸÿÿÿÿÿ
+E	java:S106="+Replace this use of System.out by a logger.(±è’°ÿÿÿÿÿ
+O
+java:S1117>"9Rename "money" which hides the field declared at line 12.(ôºŸû
+@	java:S106H"+Replace this use of System.out by a logger.(çÌ ¾
+?	java:S106N"+Replace this use of System.out by a logger.(î«Õk
+Q	java:S125W"<This block of commented-out lines of code should be removed.(ŞóÇÑ
+E	java:S106Y"+Replace this use of System.out by a logger.(­Ùçóıÿÿÿÿ
+E	java:S106["+Replace this use of System.out by a logger.(ˆúÇşÿÿÿÿ

@@ -1,14 +1,22 @@
 package homeworks08;
 
 
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
 import java.util.Scanner;
 
 public class App {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException {
+        File file = new File("C:\\Users\\Anastas\\Desktop\\magazine.txt");
+        Scanner str = new Scanner(file);
+        while (str.hasNextLine()) {
+            System.out.println(str.nextLine());
+        }
         Scanner scanner = new Scanner(System.in);
+
 
 
         Person pavelAndreevich = new Person("Павел Андреевич", 10000);
