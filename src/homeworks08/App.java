@@ -1,54 +1,45 @@
 package homeworks08;
 
-
-import java.io.File;
-import java.io.FileNotFoundException;
+import java.io.*;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
 import java.util.Scanner;
 
 public class App {
-    public static void main(String[] args) throws FileNotFoundException {
-        File file = new File("C:\\Users\\Anastas\\Desktop\\magazine.txt");
-        Scanner str = new Scanner(file);
-        while (str.hasNextLine()) {
-            System.out.println(str.nextLine());
+    public static void main(String[] args) throws IOException {
+        List<String> lines = Files.readAllLines(Paths.get("C:\\Users\\Anastas\\Desktop\\magazine.txt"));
+        for (String stroka : lines) {
+            System.out.println(stroka);
         }
-        Scanner scanner = new Scanner(System.in);
+
+        try (var objectOutputStream = new OutputStreamWriter(new FileOutputStream("file_output.txt", false), StandardCharsets.UTF_8);
+             Scanner scanner = new Scanner(System.in)) {
+            Person pavelAndreevich = new Person("Павел Андреевич", 10000);
+            Person annaPetrovna = new Person("Анна Петровна", 2000);
+            Person boris = new Person("Борис", 10);
+            Person zhenya = new Person("Женя", 0);
+            Person sveta = new Person("Света", -3);
 
 
+            Product bread = new Product("Хлеб", 40);
+            Product milk = new Product("Молоко", 60);
+            Product cake = new Product("Торт", 1000);
+            Product coffee = new Product("Кофе растворимый", 879);
+            Product oil = new Product("Масло", 150);
+            Product iceCream = new Product("Мороженное", 200);
+            Product pasta = new Product("Макароны", 800);
 
-        Person pavelAndreevich = new Person("Павел Андреевич", 10000);
-        Person annaPetrovna = new Person("Анна Петровна", 2000);
-        Person boris = new Person("Борис", 10);
-        Person zhenya = new Person("Женя", 0);
-        Person sveta = new Person("Света", -3);
 
+            List<Person> personsCollection = Arrays.asList(pavelAndreevich, annaPetrovna, boris, zhenya, sveta);
+            List<Product> productsCollection = Arrays.asList(bread, milk, cake, coffee, oil, iceCream, pasta);
 
-        Product bread = new Product("Обычный продукт:Хлеб", 40);
-        Product milk = new Product("Обычный продукт:Молоко", 60);
-        Product cake = new Product("Обычный продукт:Торт", 1000);
-        Product coffee = new Product("Обычный продукт:Кофе растворимый", 879);
-        Product oil = new Product("Обычный продукт:Масло", 150);
-        Product iceCream = new Product("Обычный продукт:Мороженное", 200);
-       Product pasta = new Product("Обычный продукт:Макароны", 800);
-
-        DiscountProduct beer = new DiscountProduct("Акционный продукт:Пиво", 250, 38);
-        DiscountProduct pizza = new DiscountProduct("Акционный продукт:Пицца", 700, 101);
-        DiscountProduct waffles = new DiscountProduct("Акционный продукт:Вафли", 100, 49);
-        DiscountProduct hookah = new DiscountProduct("Акционный продукт:Кальян", 1800, 1050);
-        DiscountProduct carhart = new DiscountProduct("Акционный продукт:КАРХАРТ КОРОЛЯ", 99999, 99998);
-
-        List<Person> personsCollection = Arrays.asList(pavelAndreevich, annaPetrovna, boris, zhenya, sveta);
-        List<Product> productsCollection = Arrays.asList(bread, milk, cake, coffee, oil, iceCream, pasta);
-        List<DiscountProduct> discountProductsCollection = Arrays.asList(beer, pizza, waffles, hookah, carhart);
-
-        boolean isEnoughFlag = false;
-
-        for (int i = 0; i < productsCollection.size(); i++) {
-            if (isEnoughFlag) break;
-            for (int k = 0; k < discountProductsCollection.size(); k++) {
+            boolean isEnoughFlag = false;
+            var fileString = new StringBuilder();
+            for (int i = 0; i < productsCollection.size(); i++) {
                 if (isEnoughFlag) break;
 
                 for (int j = 0; j < personsCollection.size(); j++) {
@@ -63,18 +54,8 @@ public class App {
 
                     Person currentPerson = personsCollection.get(j);
                     Product currentProduct = productsCollection.get(i);
-                    DiscountProduct currentDiscountProduct = discountProductsCollection.get(k);
-                    try {
-                        currentPerson.setProductsPackage(currentProduct);
-                    } catch (Exception e) {
-                        throw new RuntimeException(e);
-                    }
-                    try {
-                        currentPerson.setProductsPackage(currentDiscountProduct);
-                    } catch (Exception e) {
-                        throw new RuntimeException(e);
-                    }
-
+                    var stringToAppend = currentPerson.setProductsPackage(currentProduct);
+                    fileString.append(stringToAppend).append("\n");
 
                     if (j == personsCollection.size() && i == productsCollection.size() && !isEnoughFlag) {
                         isEnoughFlag = true;
@@ -83,25 +64,13 @@ public class App {
 
                 }
             }
-        }
-        for (Person person : personsCollection) {
-            StringBuilder currentPersonsProducts = new StringBuilder();
 
-            for (Product productsPackageItem : person.getProductsPackage()) {
-                if (currentPersonsProducts.isEmpty()) {
-                    currentPersonsProducts.append(productsPackageItem.getNameProduct());
-                } else {
-                    currentPersonsProducts.append(", ").append(productsPackageItem.getNameProduct());
-                }
-            }
 
-            if (Objects.equals(currentPersonsProducts.length(), 0)) {
-                System.out.println(person.getName() + " - " + "Ничего не куплено");
-            } else {
-                System.out.println(person.getName() + " - " + currentPersonsProducts);
-            }
+            objectOutputStream.write(fileString.toString());
+        } catch (Exception e) {
+            System.out.println("ОШИБКА: Не удалось сохранить информацию в файл");
         }
-        scanner.close();
+
     }
-    }
+}
 

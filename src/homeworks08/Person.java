@@ -1,17 +1,17 @@
 package homeworks08;
 
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Objects;
 import java.util.Scanner;
+
 
 public class Person {
     private static final int PRODUCT_BAG = 7;
     private String name;
     private double money;
 
-    private Product[] productsPackage = new Product[PRODUCT_BAG];
+    private  Product[] productsPackage = new Product[PRODUCT_BAG];
 
     public Person() {}
 
@@ -67,22 +67,25 @@ public class Person {
         this.money = money;
     }
 
-    public void setProductsPackage(Product product) throws Exception {
+    public String setProductsPackage(Product product) throws Exception {
         if (this.money < product.getPrice()) {
-            System.out.println(this.name + " не может себе позволить " + product.getNameProduct() );
+            var stringToPrint = this.name + " не может себе позволить " + product.getNameProduct();
+            System.out.println(stringToPrint);
+            return stringToPrint;
         } else {
             ArrayList<Product> products = new ArrayList<>(Arrays.asList(productsPackage));
             products.add(product);
 
             this.productsPackage = products.toArray(productsPackage);
-            System.out.println(this.name + " купил/а " + product.getNameProduct());
+            var stringToPrint = this.name + " купил/а " + product.getNameProduct();
+            System.out.println(stringToPrint);
+
 
             this.setMoney(money - product.getPrice());
-
-
+            return stringToPrint;
         }
     }
-    public void buyProduct (Product product) {
+    public void buyProduct(Product product) {
         if (this.money - product.getPrice() >=0) {
             //products(Product product);
             buyProduct(product);

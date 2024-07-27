@@ -1,16 +1,5 @@
 
-œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.( ¤Ó8Ôåƒ€2J$9715d4b0-340b-4d63-8056-54f535d9c2ae
-	java:S112F"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Õåƒ€2J$bbaac818-f658-4d38-8e7d-66360869df9f
-	java:S112K"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Õåƒ€2J$bdc42bd0-2b87-44cf-b670-6aa834288dfe
-
-java:S2095"EUse try-with-resources or close this "Scanner" in a "finally" clause.(·Ğ©ûÿÿÿÿ8Õåƒ€2J$6a45de02-7aa8-43f8-8374-3049c926d4b4
-š
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 39 to the 15 allowed.(òá–İıÿÿÿÿ8Ùåƒ€2J$51a801db-3d3d-4fb9-ab1f-eff3d15729d9
-„
-java:S1075"ARefactor your code to get this URI from a customizable parameter.(‰´Š°8Ûåƒ€2J$85a30ca4-dea1-49a5-8384-905407016102
-r	java:S106"+Replace this use of System.out by a logger.(†©úÕıÿÿÿÿ8İåƒ€2J$d2349c8d-a846-499d-8c52-4a7a1b612d31
-r	java:S1067"+Replace this use of System.out by a logger.(ºÆ¥Æüÿÿÿÿ8àåƒ€2J$d526f6e1-3f9d-4c17-8a99-55723368fecf
-m	java:S106c"+Replace this use of System.out by a logger.(ã¸ì8ãåƒ€2J$31b69644-3fec-4845-af9f-0dc2bf840e14
-r	java:S106e"+Replace this use of System.out by a logger.(òæ´æøÿÿÿÿ8ãåƒ€2J$b5573a77-4892-4c8f-ab3f-c37a25af2daf
-
-java:S6541"ÅA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 76 to 64, Complexity from 15 to 14, Nesting Level from 4 to 2, Number of Variables from 37 to 6.(òá–İıÿÿÿÿ8ãåƒ€2J$df1606ed-b4e2-4884-a0b4-dbcaca97c159
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.( ¤Ó8Ë”Â¡2J$6abb1add-aa13-4e6b-b23b-6f6b108b1851
+m	java:S106"+Replace this use of System.out by a logger.(Çıæœ8óÉ¿¡2J$e65e6976-a611-419e-91b4-1adfb9cc42e3
+r	java:S106."+Replace this use of System.out by a logger.(ºÆ¥Æüÿÿÿÿ8øÉ¿¡2J$96ed0bc8-06c5-44b5-9311-b50788733859
+m	java:S106G"+Replace this use of System.out by a logger.(üÁüÕ8úÉ¿¡2J$ec60aa70-240d-4d6b-93fe-94c7e5ebfaef
