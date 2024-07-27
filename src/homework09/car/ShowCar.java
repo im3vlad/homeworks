@@ -1,4 +1,8 @@
 package homework09.car;
 
-public class ShowCar {
+import java.util.Arrays;
+
+public class ShowCar extends Car{
+
+
 }
