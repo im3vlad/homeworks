@@ -8,9 +8,11 @@ public class Race {
     private String route;
     private int thePrizeFund;
     private List<String> cars;
-    public Race(int length, String route, int thePrizeFund, List<String> cars) {
+    public Race(int length, String route, int thePrizeFund) {
         this.length = length;
         this.route = route;
+        this.thePrizeFund = thePrizeFund;
+
     }
     public Race(){}
 
