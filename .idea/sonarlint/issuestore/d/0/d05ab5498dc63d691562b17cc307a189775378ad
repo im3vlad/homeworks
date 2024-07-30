@@ -1,0 +1,14 @@
+
+š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ç¤Ì½ÿÿÿÿÿJ$3ab57251-0ca6-4aec-8fe4-60263ed27b44
+†	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(çÍÓõÿÿÿÿÿJ$e62a6783-d618-493b-85c0-08252b050ba3
+	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(‡…ÐJ$7cd0f57f-9890-4fb9-a66a-95211a397ff6
+†	java:S112'"FDefine and throw a dedicated exception instead of using a generic one.(çÍÓõÿÿÿÿÿJ$9710993b-d6eb-4cac-919d-adf61a530a8c
+	java:S112""FDefine and throw a dedicated exception instead of using a generic one.(îÇïÊJ$efab2028-48f5-4d35-bb5d-4ebb5b517417
+	java:S112/"FDefine and throw a dedicated exception instead of using a generic one.(©Â˜ÚJ$e5bc908f-a080-40cd-bfb6-db7287ec4502
+†	java:S112,"FDefine and throw a dedicated exception instead of using a generic one.(Åî‘£ùÿÿÿÿJ$41c86814-5097-4943-af14-3606c848e895
+	java:S1129"FDefine and throw a dedicated exception instead of using a generic one.(©Â˜ÚJ$3cbb8e88-3ad0-456c-b461-c80f0c9336fd
+†	java:S1124"FDefine and throw a dedicated exception instead of using a generic one.(áÍ¬¿øÿÿÿÿJ$86483704-8630-4a55-a65c-cd12df4de9d1
+f	java:S106#"+Replace this use of System.out by a logger.(Ù¨¡ÊJ$e3893146-7354-4f10-91d7-e99859feeed1
+z
+java:S1117$">Rename "nameProduct" which hides the field declared at line 7.(ÙÍ€ÈJ$7de6d249-d1af-4d74-8b99-614f511ab224
+f	java:S1065"+Replace this use of System.out by a logger.(ý¥®’J$41a5ec69-72d9-4d77-9b5b-872a02a6d19d
