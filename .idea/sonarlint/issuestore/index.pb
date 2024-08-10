@@ -49,3 +49,11 @@ w
 G.idea/sonarlint/issuestore/9/2/924f089edb4af5ee45c8a9d1129cd28e2b368138,f\a\fa75e75cdcbcdff2b0010bc7325ef5a408f526cd
 Å
 Q.idea/sonarlint/securityhotspotstore/f/7/f749d6e84e896fe764415fea309d005082b6eb50,7\a\7afc4548a29503afcf4fd54d8ba418ccb60227a4
+O
+src/attestation/model/User.java,c\d\cdcac10e850c544f3d2e41327d6f605fa617570b
+a
+1src/attestation/repositories/UsersRepository.java,1\e\1e3c51a7c573b681e0ad1ca2baf5d9fcdbdea5fb
+i
+9src/attestation/repositories/UsersRepositoryFileImpl.java,d\1\d1c3454983d51656799e2a4731266df476c456f3
+H
+src/attestation/App.java,7\a\7af1878b60a4bcd22cbf2cd79e3b520366ac00fa
