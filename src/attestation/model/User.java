@@ -5,7 +5,7 @@ import java.util.Objects;
 import java.util.UUID;
 
 public class User {
-    UUID id = UUID.randomUUID();
+    UUID id;
     LocalDateTime dateTime = LocalDateTime.now();
     String login;
     String password;
@@ -15,23 +15,6 @@ public class User {
     String patronymic;
     int age;
     boolean isWorker = false;
-
-    public User(UUID id, String login, String password,
-                String confirmPassword, String lastName,
-                String firstName, String patronymic, int age, boolean isWorker) {
-        this.id = id;
-        if (login.length() > 20 || password.length() > 20 || confirmPassword.length() > 20) {
-            throw new IllegalArgumentException("Максимум 20 символов.");
-        }
-        this.login = login;
-        this.password = password;
-        this.confirmPassword = confirmPassword;
-        this.lastName = lastName;
-        this.firstName = firstName;
-        this.patronymic = patronymic;
-        this.age = age;
-        this.isWorker = isWorker;
-    }
 
     public UUID getId() {
         return id;
@@ -54,6 +37,9 @@ public class User {
     }
 
     public void setLogin(String login) {
+        if (login.length() > 20) {
+            throw new IllegalArgumentException("Логин должен содержать не более 20 символов.");
+        }
         this.login = login;
     }
 
@@ -62,6 +48,9 @@ public class User {
     }
 
     public void setPassword(String password) {
+        if (password.length() > 20) {
+            throw new IllegalArgumentException("Пароль должен содержать не более 20 символов.");
+        }
         this.password = password;
     }
 
@@ -70,6 +59,9 @@ public class User {
     }
 
     public void setConfirmPassword(String confirmPassword) {
+        if (confirmPassword.length() > 20) {
+            throw new IllegalArgumentException("Пароль должен содержать не более 20 символов.");
+        }
         this.confirmPassword = confirmPassword;
     }
 
@@ -128,17 +120,12 @@ public class User {
 
     @Override
     public String toString() {
-        return "User{" +
-                "id=" + id +
-                ", dateTime=" + dateTime +
-                ", login='" + login + '\'' +
-                ", password='" + password + '\'' +
-                ", confirmPassword='" + confirmPassword + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", firstName='" + firstName + '\'' +
-                ", patronymic='" + patronymic + '\'' +
-                ", age=" + age +
-                ", isWorker=" + isWorker +
-                '}';
+        return id + "|" + dateTime + "|"
+                 + login + "|" + password + "|" + confirmPassword + "|" +
+                 lastName + "|" +
+                firstName + "|" +
+                 patronymic + "|" +
+                 age + "|" +isWorker +
+                "|";
     }
 }

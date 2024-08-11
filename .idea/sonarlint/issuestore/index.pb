@@ -57,3 +57,5 @@ i
 9src/attestation/repositories/UsersRepositoryFileImpl.java,d\1\d1c3454983d51656799e2a4731266df476c456f3
 H
 src/attestation/App.java,7\a\7af1878b60a4bcd22cbf2cd79e3b520366ac00fa
+Y
+)src/attestation/resources/attestation.txt,4\3\43170cc00cc3fbe8245b3e4591e3f9b489d22219

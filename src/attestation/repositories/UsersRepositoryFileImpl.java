@@ -3,39 +3,93 @@ package attestation.repositories;
 import attestation.model.User;
 
 import java.io.*;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 import java.util.UUID;
 
 public class UsersRepositoryFileImpl implements UsersRepository {
 
     @Override
-    public void createUser(User user) {
-       user = new User(UUID.randomUUID(), "bingo_45", "45r45",
-                "45r45", "Андропов", "Владислав", "Борисович",
-                36, true);
-       User user1 = new User(UUID.randomUUID(),"bongo46","46t46","46t46",
-               "Козельский","Андрей","Александрович",23,false);
+    public void createUser(UUID id, String login, String password, String confirmPassword,
+                           String lastName, String firstName, String patronymic, int age, boolean isWorker) {
+       User user = new User();
+       user.setId(id);
+       user.setLogin(login);
+       user.setPassword(password);
+       user.setConfirmPassword(confirmPassword);
+       user.setLastName(lastName);
+       user.setFirstName(firstName);
+       user.setPatronymic(patronymic);
+       user.setAge(age);
+       user.setWorker(isWorker);
         List<User> users = new ArrayList<>();
         users.add(user);
-        users.add(user1);
-        try (PrintWriter writer = new PrintWriter(new FileWriter("file.txt", true))) {
+        try (PrintWriter writer = new PrintWriter(new FileWriter("C:\\Users\\Anastas\\IdeaProjects\\game\\src\\attestation\\resources\\attestation.txt", true))) {
 
             for (User item : users) {
                 writer.println(item);
             }
         } catch (IOException e) {
-            System.out.println("Error writing to file: " + e.getMessage());
+            System.out.println("Ошибка записи в файл: " + e.getMessage());
         }
     }
 
     @Override
     public User findById(String id) {
-        return null;
+        Scanner scanner = null;
+        User user = new User();
+        try {
+            scanner = new Scanner(new File("C:\\Users\\Anastas\\IdeaProjects\\game\\src\\attestation\\resources\\attestation.txt"));
+            while (scanner.hasNextLine()) {
+                String line = scanner.nextLine();
+                String[] parts = line.split("\\|");
+                if (parts[0].equals(id)) {
+                    DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss.SSSSSSSSS");
+                    LocalDateTime localDateTime = LocalDateTime.parse(parts[1], formatter);
+                    user.setId(UUID.fromString(parts[0]));
+                    user.setDateTime(localDateTime);
+                    user.setLogin(parts[2]);
+                    user.setPassword(parts[3]);
+                    user.setConfirmPassword(parts[4]);
+                    user.setLastName(parts[5]);
+                    user.setFirstName(parts[6]);
+                    user.setPatronymic(parts[7]);
+                    user.setAge(Integer.valueOf(parts[8]));
+                    user.setWorker(Boolean.valueOf(parts[9]));
+                    break;
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            if (scanner != null) {
+                scanner.close();
+            }
+        }
+        return user;
     }
 
     @Override
     public List<User> findAll() {
+        Scanner scanner = null;
+        try {
+            scanner = new Scanner(new File("C:\\Users\\Anastas\\Desktop\\it\\attestation.txt"));
+            while (scanner.hasNextLine()) {
+                String line = scanner.nextLine();
+                String[] parts = line.split("|");
+                // Здесь можно обработать информацию о пользователе
+                System.out.println("User: " + parts[0]);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            if (scanner != null) {
+                scanner.close();
+            }
+        }
         return List.of();
     }
 
@@ -53,4 +107,6 @@ public class UsersRepositoryFileImpl implements UsersRepository {
     public void deleteAll() {
 
     }
+
+
 }
