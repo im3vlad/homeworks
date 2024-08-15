@@ -5,10 +5,9 @@ import attestation.model.User;
 import java.io.*;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
-import java.util.UUID;
+import java.util.*;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class UsersRepositoryFileImpl implements UsersRepository {
 
@@ -87,15 +86,50 @@ public class UsersRepositoryFileImpl implements UsersRepository {
     @Override
     public void update(User user) {
 
+
     }
 
     @Override
     public void deleteById(String id) {
-
+        List<User> users = findAll();
+        if (users.isEmpty()){
+            throw new RuntimeException("В файле нет пользователей");
+        }
+        List<UUID> userIds = users.stream().map(user -> user.getId()).collect(Collectors.toUnmodifiableList());
+        UUID idToDelete = UUID.fromString(id);
+        if (userIds.contains(idToDelete)) {
+            List<User> actualUsers = users.stream()
+                    .filter(user -> !user.getId().equals(idToDelete)).collect(Collectors.toUnmodifiableList());
+/*использовать метод deleteAll чтобы очистить файл
+далее записать в пустой файл новую коллекцию user
+ */
+        deleteAll();
+            try (PrintWriter writer = new PrintWriter(new FileWriter("C:\\Users\\Anastas\\IdeaProjects\\game\\src\\attestation\\resources\\attestation.txt"))) {
+                for (User user : users) {
+                    writer.println(user);
+                }
+            } catch (IOException e) {
+                System.out.println("Ошибка записи  " + e.getMessage());
+            }
+        }
     }
+
+
 
     @Override
     public void deleteAll() {
+    List<User> users = findAll();
+        if (users.isEmpty()){
+            throw new RuntimeException("В файле нет пользователей");
+        }
+        users.clear();
+        try (PrintWriter writer = new PrintWriter(new FileWriter("C:\\Users\\Anastas\\IdeaProjects\\game\\src\\attestation\\resources\\attestation.txt"))) {
+            for (User user : users) {
+                writer.println(user.getId());
+            }
+        } catch (IOException e) {
+            System.out.println("Ошибка записи  " + e.getMessage());
+        }
 
     }
 
