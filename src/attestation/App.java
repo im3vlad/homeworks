@@ -18,7 +18,10 @@ public class App {
                 "Козельский","Андрей","Александрович",23,false);
         //User user = repositoryFile.findById(userId2.toString());
         List<User> users = repositoryFile.findAll();
-        System.out.println(users);
+       // repositoryFile.findAll();
+        //repositoryFile.deleteAll();
+        repositoryFile.update();
+        System.out.println();
     }
 
 
