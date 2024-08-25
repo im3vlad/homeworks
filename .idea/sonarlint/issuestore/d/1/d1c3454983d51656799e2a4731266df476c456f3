@@ -1,0 +1,23 @@
+
+‡	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ş£^8á·áÓ˜2J$0a092292-b652-4512-b988-0ee3cb0cc62e
+	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ªû·ıÿÿÿÿ8á·áÓ˜2J$0dc81349-0bef-4d4d-9e5e-74796ea8e7e0
+	java:S112‚"FDefine and throw a dedicated exception instead of using a generic one.(‡ú¥øÿÿÿÿ8á·áÓ˜2J$a1d10950-aea2-4a7c-ad56-9f79efa02c5e
+	java:S112”"FDefine and throw a dedicated exception instead of using a generic one.(‡ú¥øÿÿÿÿ8á·áÓ˜2J$8fed36fa-101a-4e3e-9c72-b08bc49e9796
+Ş
+java:S1192("•Define a constant instead of duplicating this literal "C:\\Users\\Anastas\\IdeaProjects\\game\\src\\attestation\\resources\\attestation.txt" 4 times.(úóûËÿÿÿÿÿ8á·áÓ˜2J$0e6eed65-c4a8-414e-9050-25185ffd35a8
+r	java:S106-"+Replace this use of System.out by a logger.(Æ÷‡Âıÿÿÿÿ8á·áÓ˜2J$e729e350-0cea-463a-9aa5-e80bb7559f60
+„
+java:S10757"ARefactor your code to get this URI from a customizable parameter.(Ñ›ì­8á·áÓ˜2J$8c82732b-0e1d-4af7-8f80-37b1c3b3bc10
+r
+java:S20936"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8á·áÓ˜2J$b12c96ba-9b1d-41e5-b26d-c7db8711e357
+„
+java:S1075O"ARefactor your code to get this URI from a customizable parameter.(Ñ›ì­8á·áÓ˜2J$6a4e71db-9b05-4d32-9d5c-fe654f73d145
+r
+java:S2093N"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8á·áÓ˜2J$efa811f6-3dad-4032-a2d6-6acdc0745d36
+£
+java:S6204„"_Replace this usage of 'Stream.collect(Collectors.toUnmodifiableList())' with 'Stream.toList()'.(óù¦¸8á·áÓ˜2J$303cd056-44b6-464b-83b0-d4ed5c1a6a33
+|
+java:S1612„"8Replace this lambda with method reference 'User::getId'.(óù¦¸8á·áÓ˜2J$1f4a97f6-5e8e-45c7-a851-f9608c292631
+£
+java:S6204ˆ"_Replace this usage of 'Stream.collect(Collectors.toUnmodifiableList())' with 'Stream.toList()'.(Š®Áó8á·áÓ˜2J$d6fd0f75-f0f1-4586-9358-9b9400d595b5
+s	java:S106±"+Replace this use of System.out by a logger.(ñ”É¨ùÿÿÿÿ8á·áÓ˜2J$0c65621f-b7b1-457d-ac9a-ccd2ce9c8b68

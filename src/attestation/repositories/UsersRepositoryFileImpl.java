@@ -6,14 +6,26 @@ import java.io.*;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 
 
 public class UsersRepositoryFileImpl implements UsersRepository {
-    private static final List<User> users = new ArrayList<>();
+    private List<User> users = new ArrayList<>();
+
     @Override
     public void createUser(UUID id, String login, String password, String confirmPassword,
                            String lastName, String firstName, String patronymic, int age, boolean isWorker) {
+
+        users = findAll();
+        users.forEach(user -> {
+            if(id.equals(user.getId())) {
+                throw new RuntimeException(id + " уже существует");
+            }
+            if (login.equals(user.getLogin())) {
+                throw new RuntimeException(login + "уже существует");
+            }
+        });
         User user = new User();
         user.setId(id);
         user.setLogin(login);
@@ -27,7 +39,7 @@ public class UsersRepositoryFileImpl implements UsersRepository {
         users.add(user);
         try (PrintWriter writer = new PrintWriter(new FileWriter("C:\\Users\\Anastas\\IdeaProjects\\game\\src\\attestation\\resources\\attestation.txt", true))) {
 
-                writer.println(user);
+            writer.println(user);
 
         } catch (IOException e) {
             System.out.println("Ошибка записи в файл: " + e.getMessage());
@@ -36,6 +48,7 @@ public class UsersRepositoryFileImpl implements UsersRepository {
 
     @Override
     public User findById(String id) {
+        users.clear();
         Scanner scanner = null;
         User user = new User();
         try {
@@ -60,6 +73,7 @@ public class UsersRepositoryFileImpl implements UsersRepository {
 
     @Override
     public List<User> findAll() {
+        users.clear();
         Scanner scanner = null;
         try {
             scanner = new Scanner(new File("C:\\Users\\Anastas\\IdeaProjects\\game\\src\\attestation\\resources\\attestation.txt"));
@@ -82,15 +96,37 @@ public class UsersRepositoryFileImpl implements UsersRepository {
 
     @Override
     public void update(User user) {
-        //поиск id findbyId
-        updateFail();
+        users.clear();
+        users = findAll();
+        
+        Map<UUID, User> userMap = users.stream().collect(Collectors.toMap(User::getId, Function.identity()));
+
+        if (userMap.containsKey(user.getId())) {
+            User userFromMap = userMap.get(user.getId());
+            userFromMap.setWorker(user.isWorker());
+            userFromMap.setLogin(user.getLogin());
+            userFromMap.setAge(user.getAge());
+            userFromMap.setFirstName(user.getFirstName());
+            userFromMap.setLastName(user.getLastName());
+            userFromMap.setConfirmPassword(user.getConfirmPassword());
+            userFromMap.setPassword(user.getPassword());
+            userFromMap.setPatronymic(user.getPatronymic());
+            userFromMap.setDateTime(LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss")));
+        } else {
+            userMap.put(user.getId(), user);
+        }
+        List<User> actualUsers = new ArrayList<>(userMap.values());
+            deleteAll();
+        writeUser(actualUsers);
 
 
     }
 
     @Override
     public void deleteById(String id) {
-        if (users.isEmpty()){
+        users.clear();
+        users = findAll();
+        if (users.isEmpty()) {
             throw new RuntimeException("В файле нет пользователей");
         }
         List<UUID> userIds = users.stream().map(user -> user.getId()).collect(Collectors.toUnmodifiableList());
@@ -98,41 +134,27 @@ public class UsersRepositoryFileImpl implements UsersRepository {
         if (userIds.contains(idToDelete)) {
             List<User> actualUsers = users.stream()
                     .filter(user -> !user.getId().equals(idToDelete)).collect(Collectors.toUnmodifiableList());
-/*использовать метод deleteAll чтобы очистить файл
-далее записать в пустой файл новую коллекцию user
- */
-        deleteAll();
-            try (PrintWriter writer = new PrintWriter(new FileWriter("C:\\Users\\Anastas\\IdeaProjects\\game\\src\\attestation\\resources\\attestation.txt"))) {
-                for (User user : users) {
-                    writer.println(user);
-                }
-            } catch (IOException e) {
-                System.out.println("Ошибка записи  " + e.getMessage());
-            }
+            deleteAll();
+            writeUser(actualUsers);
         }
     }
 
 
-
     @Override
     public void deleteAll() {
-        if (users.isEmpty()){
+        users.clear();
+        users = findAll();
+        if (users.isEmpty()) {
             throw new RuntimeException("В файле нет пользователей");
         }
         users.clear();
-        try (PrintWriter writer = new PrintWriter(new FileWriter("C:\\Users\\Anastas\\IdeaProjects\\game\\src\\attestation\\resources\\attestation.txt"))) {
-            for (User user : users) {
-                writer.println(user.getId());
-            }
-        } catch (IOException e) {
-            System.out.println("Ошибка записи  " + e.getMessage());
-        }
+        writeUser(users);
 
     }
 
     public void mapUser(String[] parts, User user) {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss");
-       String localDateTime = LocalDateTime.parse(parts[1], formatter).format(DateTimeFormatter.ISO_DATE_TIME);
+        String localDateTime = LocalDateTime.parse(parts[1], formatter).format(DateTimeFormatter.ISO_DATE_TIME);
 
         user.setId(UUID.fromString(parts[0]));
         user.setDateTime(localDateTime);
@@ -145,18 +167,14 @@ public class UsersRepositoryFileImpl implements UsersRepository {
         user.setAge(Integer.valueOf(parts[8]));
         user.setWorker(Boolean.valueOf(parts[9]));
     }
-    private void updateFail(){
-        //считать цикл пользователей и сохранить их в файл
-        if (users.isEmpty()){
-            throw new RuntimeException("В файле нет пользователей");
-        }
-        users.stream().filter(user -> user.getId().equals("someID")).findFirst().ifPresent(user -> user.setId(UUID.randomUUID()));
-        try (PrintWriter writer = new PrintWriter(new FileWriter("C:\\Users\\Anastas\\IdeaProjects\\game\\src\\attestation\\resources\\attestation.txt"))) {
-            for (User user : users) {
-                writer.println(user.getId() + "," + user.getLastName());
+
+    private static void writeUser(List<User> users) {
+        try(PrintWriter writer = new PrintWriter(new FileWriter("C:\\Users\\Anastas\\IdeaProjects\\game\\src\\attestation\\resources\\attestation.txt"))) {
+            for (User userUpdate  : users) {
+                writer.println(userUpdate);
             }
         } catch (IOException e) {
-            System.out.println("Error writing to file: " + e.getMessage());
+            System.out.println("Ошибка записи: " + e.getMessage());
         }
     }
 }
