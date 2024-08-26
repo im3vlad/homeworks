@@ -1,11 +1,29 @@
 package homework10;
 
 public class Sequence {
-    public static int[] filter(int[] array,ByCondition condition){
-        int[] result = new int[array.length];
-        for(int i=0;i<array.length;i++){
-        }
-        return result;
-    }
+        public static int[] filter (int[] inputNumbers, ByCondition condition){
+            boolean[] resultConditions = new boolean[inputNumbers.length];
 
-}
+            int size = 0;
+
+            for (int pos = 0; pos < inputNumbers.length; pos++) {
+                resultConditions[pos] = condition.isOk(inputNumbers[pos]);
+                if(resultConditions[pos]){
+                    size++;
+                }
+            }
+
+            int[] resultNumbers = new int[size];
+            int count = 0;
+            for(int pos = 0; pos < resultConditions.length; pos++){
+                if(resultConditions[pos]){
+                    resultNumbers[count] = inputNumbers[pos];
+                    count++;
+                }
+            }
+
+            return resultNumbers;
+
+
+        }
+    }
