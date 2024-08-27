@@ -1,0 +1,10 @@
+
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.( ¤Ó8­úİÙŒ2J$419c9617-f2b5-4a51-b810-0c41d608d7dc
+	java:S112>"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8±úİÙŒ2J$162e605f-9aa4-4224-a594-7a87ffaae95f
+	java:S112C"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8±úİÙŒ2J$224cebf8-b255-44c7-b2ca-43f630147e90
+o
+java:S3776
+"RRefactor this method to reduce its Cognitive Complexity from 38 to the 15 allowed.(Çµí‘8¦¸ÿÙŒ2
+r	java:S106/"+Replace this use of System.out by a logger.(ºÆ¥Æüÿÿÿÿ8ÆúİÙŒ2J$3eb087c8-7d83-4253-b1c6-858f36eb45cf
+m	java:S106["+Replace this use of System.out by a logger.(ã¸ì8ÎúİÙŒ2J$db7692a5-a45c-4885-86e3-97eecdfa0fdb
+r	java:S106]"+Replace this use of System.out by a logger.(òæ´æøÿÿÿÿ8ÏúİÙŒ2J$a26e1cbc-a2b6-4f76-ad82-9078880ac685

@@ -1,0 +1,96 @@
+Index: src/homework006/App.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package homework006;\r\n\r\nimport java.util.Arrays;\r\nimport java.util.List;\r\nimport java.util.Objects;\r\nimport java.util.Scanner;\r\n\r\npublic class App {\r\n    public static void main(String[] args) throws Exception {\r\n        Scanner scanner = new Scanner(System.in);\r\n\r\n\r\n        Person pavelAndreevich = new Person(\"Павел Андреевич\", 10000);\r\n        Person annaPetrovna = new Person(\"Анна Петровна\", 2000);\r\n        Person boris = new Person(\"Борис\", 10);\r\n        Person zhenya = new Person(\"Женя\", 0);\r\n        Person sveta = new Person(\"Света\", -3);\r\n\r\n\r\n        Product bread = new Product(\"Хлеб\", 40);\r\n        Product milk = new Product(\"Молоко\", 60);\r\n        Product cake = new Product(\"Торт\", 1000);\r\n        Product coffee = new Product(\"Кофе растворимый\", 879);\r\n        Product oil = new Product(\"Масло\", 150);\r\n        Product iceCream = new Product(\"Мороженное\", 200);\r\n        Product pasta = new Product(\"Макароны\", 800);\r\n\r\n\r\n        List<Person> personsCollection = Arrays.asList(pavelAndreevich, annaPetrovna, boris, zhenya, sveta);\r\n        List<Product> productsCollection = Arrays.asList(bread, milk, cake, coffee, oil, iceCream, pasta);\r\n\r\n        boolean isEnoughFlag = false;\r\n\r\n        for (int i = 0; i < productsCollection.size(); i++) {\r\n            if (isEnoughFlag) break;\r\n\r\n            for (int j = 0; j < personsCollection.size(); j++) {\r\n                System.out.println(\" Если Вы желаете прервать наполнение продуктовой корзины введите \" + \"END\" + \"\\n\" +\r\n                        \" Для продолжения программы нажмите Enter\");\r\n                String deprivateCommand = scanner.nextLine();\r\n\r\n                if (Objects.equals(deprivateCommand.trim(), \"END\")) {\r\n                    isEnoughFlag = true;\r\n                    break;\r\n                }\r\n\r\n                Person currentPerson = personsCollection.get(j);\r\n                Product currentProduct = productsCollection.get(i);\r\n                currentPerson.setProductsPackage(currentProduct);\r\n\r\n                if (j == personsCollection.size() && i == productsCollection.size() && !isEnoughFlag) {\r\n                    isEnoughFlag = true;\r\n                }\r\n\r\n\r\n            }\r\n        }\r\n        for (Person person : personsCollection) {\r\n            StringBuilder currentPersonsProducts = new StringBuilder();\r\n\r\n            for (Product productsPackageItem : person.getProductsPackage()) {\r\n                if (currentPersonsProducts.isEmpty()) {\r\n                    currentPersonsProducts.append(productsPackageItem.getNameProduct());\r\n                } else {\r\n                    currentPersonsProducts.append(\", \").append(productsPackageItem.getNameProduct());\r\n                }\r\n            }\r\n\r\n            if (Objects.equals(currentPersonsProducts.length(), 0)) {\r\n                System.out.println(person.getName() + \" - \" + \"Ничего не куплено\");\r\n            } else {\r\n                System.out.println(person.getName() + \" - \" + currentPersonsProducts);\r\n            }\r\n        }\r\n        scanner.close();\r\n    }\r\n}\r\n
+===================================================================
+diff --git a/src/homework006/App.java b/src/homework006/App.java
+--- a/src/homework006/App.java	
++++ b/src/homework006/App.java	
+@@ -6,6 +6,7 @@
+ import java.util.Scanner;
+ 
+ public class App {
++
+     public static void main(String[] args) throws Exception {
+         Scanner scanner = new Scanner(System.in);
+ 
+@@ -17,42 +18,58 @@
+         Person sveta = new Person("Света", -3);
+ 
+ 
+-        Product bread = new Product("Хлеб", 40);
+-        Product milk = new Product("Молоко", 60);
+-        Product cake = new Product("Торт", 1000);
+-        Product coffee = new Product("Кофе растворимый", 879);
+-        Product oil = new Product("Масло", 150);
+-        Product iceCream = new Product("Мороженное", 200);
+-        Product pasta = new Product("Макароны", 800);
++        Product bread = new Product("Обычный продукт:Хлеб", 40);
++        Product milk = new Product("Обычный продукт:Молоко", 60);
++        Product cake = new Product("Обычный продукт:Торт", 1000);
++        Product coffee = new Product("Обычный продукт:Кофе растворимый", 879);
++        Product oil = new Product("Обычный продукт:Масло", 150);
++        Product iceCream = new Product("Обычный продукт:Мороженное", 200);
++        Product pasta = new Product("Обычный продукт:Макароны", 800);
++
++        DiscountProduct beer = new DiscountProduct("Акционный продукт:Пиво",500, 50);
++        DiscountProduct chokolate = new DiscountProduct("Акционный продукт:Шоколад", 100, 23);
++        DiscountProduct cocaCola = new DiscountProduct("Акционный продукт:Кока кола", 125, 48 );
++        DiscountProduct waffles = new DiscountProduct("Акционный продукт:Вафли", 200, 33);
++
++
++
+ 
+ 
+         List<Person> personsCollection = Arrays.asList(pavelAndreevich, annaPetrovna, boris, zhenya, sveta);
+         List<Product> productsCollection = Arrays.asList(bread, milk, cake, coffee, oil, iceCream, pasta);
++        List<DiscountProduct> discountCollection = Arrays.asList(beer, chokolate, cocaCola, waffles);
+ 
++        System.out.println(discountCollection);
+         boolean isEnoughFlag = false;
+ 
+         for (int i = 0; i < productsCollection.size(); i++) {
+             if (isEnoughFlag) break;
+ 
+-            for (int j = 0; j < personsCollection.size(); j++) {
+-                System.out.println(" Если Вы желаете прервать наполнение продуктовой корзины введите " + "END" + "\n" +
+-                        " Для продолжения программы нажмите Enter");
+-                String deprivateCommand = scanner.nextLine();
++            for (int k = 0; k < discountCollection.size(); k++) {
++                if (isEnoughFlag) break;
++
++                for (int j = 0; j < personsCollection.size(); j++) {
++                    System.out.println(" Если Вы желаете прервать наполнение продуктовой корзины введите " + "END" + "\n" +
++                            " Для продолжения программы нажмите Enter");
++                    String deprivateCommand = scanner.nextLine();
+ 
+-                if (Objects.equals(deprivateCommand.trim(), "END")) {
+-                    isEnoughFlag = true;
+-                    break;
+-                }
++                    if (Objects.equals(deprivateCommand.trim(), "END")) {
++                        isEnoughFlag = true;
++                        break;
++                    }
+ 
+-                Person currentPerson = personsCollection.get(j);
+-                Product currentProduct = productsCollection.get(i);
+-                currentPerson.setProductsPackage(currentProduct);
++                    Person currentPerson = personsCollection.get(j);
++                    Product currentProduct = productsCollection.get(i);
++                    DiscountProduct currentDiscountProduct = discountCollection.get(k);
++                    currentPerson.setProductsPackage(currentProduct);
++                    currentPerson.setProductsPackage(currentDiscountProduct);
+ 
+-                if (j == personsCollection.size() && i == productsCollection.size() && !isEnoughFlag) {
+-                    isEnoughFlag = true;
+-                }
++                    if (j == personsCollection.size() && i == productsCollection.size() && !isEnoughFlag) {
++                        isEnoughFlag = true;
++                    }
+ 
+ 
++                }
+             }
+         }
+         for (Person person : personsCollection) {

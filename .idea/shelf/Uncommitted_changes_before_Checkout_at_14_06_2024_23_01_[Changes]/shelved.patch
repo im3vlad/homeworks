@@ -1,0 +1,17 @@
+Index: src/homework5/Utilitarian.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package homework5;\r\n\r\nimport java.util.Scanner;\r\n\r\npublic class Utilitarian {\r\n\r\n\r\n}\r\n
+===================================================================
+diff --git a/src/homework5/Utilitarian.java b/src/homework5/Utilitarian.java
+--- a/src/homework5/Utilitarian.java	
++++ b/src/homework5/Utilitarian.java	
+@@ -3,6 +3,8 @@
+ import java.util.Scanner;
+ 
+ public class Utilitarian {
++    Scanner sc = new Scanner(System.in);
++
+ 
+ 
+ }

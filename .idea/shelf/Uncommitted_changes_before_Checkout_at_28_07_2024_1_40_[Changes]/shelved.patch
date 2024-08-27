@@ -1,0 +1,76 @@
+Index: src/homework09/car/PerformanceCar.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package homework09.car;\r\n\r\nimport java.util.Arrays;\r\nimport java.util.Objects;\r\n\r\npublic class PerformanceCar extends Car{\r\n    String[] addOns;\r\n    double t = (getHorsePower() * 100) / 500;\r\n    double horsePowerPerformaceCar = getHorsePower() + t ;\r\n    double k = (getHorsePower() * 100) / 500;\r\n    double pendantPerformanceCar = getPendant() - k;\r\n\r\n    public PerformanceCar(double horsePowerPerformaceCar, double pendantPerformanceCar) {\r\n        this.horsePowerPerformaceCar = horsePowerPerformaceCar;\r\n        this.pendantPerformanceCar = pendantPerformanceCar;\r\n        this.addOns = addOns;\r\n    }\r\n\r\n    public String[] getAddOns() {\r\n        return addOns;\r\n    }\r\n\r\n    public void setAddOns(String[] addOns) {\r\n        this.addOns = addOns;\r\n    }\r\n\r\n    public double getHorsePowerPerformaceCar() {\r\n        return horsePowerPerformaceCar;\r\n    }\r\n\r\n    public void setHorsePowerPerformaceCar(double horsePowerPerformaceCar) {\r\n        this.horsePowerPerformaceCar = horsePowerPerformaceCar;\r\n    }\r\n\r\n    public double getPendantPerformanceCar() {\r\n        return pendantPerformanceCar;\r\n    }\r\n\r\n    public void setPendantPerformanceCar(double pendantPerformanceCar) {\r\n        this.pendantPerformanceCar = pendantPerformanceCar;\r\n    }\r\n\r\n    @Override\r\n    public boolean equals(Object o) {\r\n        if (this == o) return true;\r\n        if (o == null || getClass() != o.getClass()) return false;\r\n        if (!super.equals(o)) return false;\r\n        PerformanceCar that = (PerformanceCar) o;\r\n        return Double.compare(horsePowerPerformaceCar, that.horsePowerPerformaceCar) == 0 && Double.compare(pendantPerformanceCar, that.pendantPerformanceCar) == 0 && Objects.deepEquals(addOns, that.addOns);\r\n    }\r\n\r\n    @Override\r\n    public int hashCode() {\r\n        return Objects.hash(super.hashCode(), Arrays.hashCode(addOns), horsePowerPerformaceCar, pendantPerformanceCar);\r\n    }\r\n\r\n    @Override\r\n    public String toString() {\r\n        return \"PerformanceCar{\" +\r\n                \"pendantPerformanceCar=\" + pendantPerformanceCar +\r\n                \", addOns=\" + Arrays.toString(addOns) +\r\n                \", horsePowerPerformaceCar=\" + horsePowerPerformaceCar +\r\n                '}';\r\n    }\r\n}\r\n
+===================================================================
+diff --git a/src/homework09/car/PerformanceCar.java b/src/homework09/car/PerformanceCar.java
+--- a/src/homework09/car/PerformanceCar.java	
++++ b/src/homework09/car/PerformanceCar.java	
+@@ -1,65 +1,9 @@
+ package homework09.car;
+ 
+-import java.util.Arrays;
+-import java.util.Objects;
++
+ 
+ public class PerformanceCar extends Car{
+-    String[] addOns;
+-    double t = (getHorsePower() * 100) / 500;
+-    double horsePowerPerformaceCar = getHorsePower() + t ;
+-    double k = (getHorsePower() * 100) / 500;
+-    double pendantPerformanceCar = getPendant() - k;
+-
+-    public PerformanceCar(double horsePowerPerformaceCar, double pendantPerformanceCar) {
+-        this.horsePowerPerformaceCar = horsePowerPerformaceCar;
+-        this.pendantPerformanceCar = pendantPerformanceCar;
+-        this.addOns = addOns;
+-    }
++    
+ 
+-    public String[] getAddOns() {
+-        return addOns;
+-    }
+ 
+-    public void setAddOns(String[] addOns) {
+-        this.addOns = addOns;
+-    }
+-
+-    public double getHorsePowerPerformaceCar() {
+-        return horsePowerPerformaceCar;
+-    }
+-
+-    public void setHorsePowerPerformaceCar(double horsePowerPerformaceCar) {
+-        this.horsePowerPerformaceCar = horsePowerPerformaceCar;
+-    }
+-
+-    public double getPendantPerformanceCar() {
+-        return pendantPerformanceCar;
+-    }
+-
+-    public void setPendantPerformanceCar(double pendantPerformanceCar) {
+-        this.pendantPerformanceCar = pendantPerformanceCar;
+-    }
+-
+-    @Override
+-    public boolean equals(Object o) {
+-        if (this == o) return true;
+-        if (o == null || getClass() != o.getClass()) return false;
+-        if (!super.equals(o)) return false;
+-        PerformanceCar that = (PerformanceCar) o;
+-        return Double.compare(horsePowerPerformaceCar, that.horsePowerPerformaceCar) == 0 && Double.compare(pendantPerformanceCar, that.pendantPerformanceCar) == 0 && Objects.deepEquals(addOns, that.addOns);
+-    }
+-
+-    @Override
+-    public int hashCode() {
+-        return Objects.hash(super.hashCode(), Arrays.hashCode(addOns), horsePowerPerformaceCar, pendantPerformanceCar);
+-    }
+-
+-    @Override
+-    public String toString() {
+-        return "PerformanceCar{" +
+-                "pendantPerformanceCar=" + pendantPerformanceCar +
+-                ", addOns=" + Arrays.toString(addOns) +
+-                ", horsePowerPerformaceCar=" + horsePowerPerformaceCar +
+-                '}';
+-    }
+ }
