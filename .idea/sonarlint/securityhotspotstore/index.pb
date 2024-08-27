@@ -1,8 +1,6 @@
 
 L
 src/homework10/Sequence.java,9\a\9a7f5964fb00b8fa39b36b887d6c2e1353e9ddb5
-H
-src/homework10/Main.java,3\8\38fe8b596a903dff32068b4dd44b2915ebb75b5b
 O
 src/homework10/ByCondition.java,5\4\5417958e676881dd165c5450aef1a001d7dcf822
 G
@@ -381,3 +379,5 @@ G.idea/sonarlint/issuestore/d/5/d5f293b26b03b30e19c37d7fd7b2a3778ec7001e,a\9\a9
 Q.idea/sonarlint/securityhotspotstore/d/d/ddcc91d4894319c871fbce7a6e7e78fb6782fdab,2\e\2e2024ed55235ffe17f160a2528b8f4c1799eae8
 Å
 Q.idea/sonarlint/securityhotspotstore/d/5/d5f293b26b03b30e19c37d7fd7b2a3778ec7001e,4\5\45f8add6eb1e4357830efb46ee7c430acb778728
+8
+game.iml,5\6\568ab3dfa71df438f25bad2393543091d4f8868f

@@ -1,10 +1,0 @@
-
-œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(æÖ©õ8¨àœ…™2J$bf56c4c4-1bc4-490b-99ac-e3e712eaa852
-	java:S112*"FDefine and throw a dedicated exception instead of using a generic one.(ÆÀÅ†ûÿÿÿÿ8¬àœ…™2J$2a163633-42e9-4c78-9887-a3828a75d1cb
-m	java:S106"+Replace this use of System.out by a logger.(ìÕíç8¸àœ…™2J$edf58cfc-c7f9-4530-9958-f91350c8c11a
-m	java:S106"+Replace this use of System.out by a logger.(ÊÒ™–8¹àœ…™2J$a0069328-8785-4ef4-a8db-4990547e0d6a
-m	java:S106"+Replace this use of System.out by a logger.(ŠˆÊö8ºàœ…™2J$2aba19ff-23b8-4da1-b8de-88dafb54fe33
-r	java:S106"+Replace this use of System.out by a logger.(¡®ªşÿÿÿÿ8¾àœ…™2J$46f80112-553d-4662-8da1-d3828fbd2686
-m	java:S106&"+Replace this use of System.out by a logger.(Ã¶àÕ8Áàœ…™2J$2389732e-9edb-455d-96fb-1716858e7fc6
-r	java:S106'"+Replace this use of System.out by a logger.(ŒÃæÅÿÿÿÿÿ8Áàœ…™2J$2bf33b53-6545-40f4-bcce-67f022dc810e
-m	java:S106("+Replace this use of System.out by a logger.(ÜõŒÙ8Âàœ…™2J$77897468-8117-4442-bd13-ccc0c2fee6dc
