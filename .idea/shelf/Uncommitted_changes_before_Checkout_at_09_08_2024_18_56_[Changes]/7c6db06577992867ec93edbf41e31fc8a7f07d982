@@ -1,0 +1,46 @@
+
+š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ø«–ÎıÿÿÿÿJ$b204fef5-d887-459e-abda-8fb403a7429c
+z
+java:S1854"7Remove this useless assignment to local variable "tv9".(ª…½á8ñëõ½‚2J$f0afcd85-92dd-4861-a87e-e3ed1746b51c
+
+java:S1854"7Remove this useless assignment to local variable "tv8".(êÙÍåüÿÿÿÿ8ìõ½‚2J$f98bf3bc-1304-47b9-a67e-d7ffb94ea651
+
+java:S1854"7Remove this useless assignment to local variable "tv7".(°Ğûÿÿÿÿ8ìõ½‚2J$dab1d957-b541-4fae-912b-bff98f8dbc9c
+
+java:S1854"7Remove this useless assignment to local variable "tv6".(×ıäıÿÿÿÿ8ìõ½‚2J$0e363936-c57f-4187-b0ad-bd279e4d70c5
+
+java:S1854"7Remove this useless assignment to local variable "tv5".(åƒ’©ıÿÿÿÿ8ìõ½‚2J$f2be2900-8652-494c-b5b0-5ea9f2d138c8
+
+java:S1854"7Remove this useless assignment to local variable "tv4".(ŸÊÿêúÿÿÿÿ8ìõ½‚2J$12b5de75-7a79-4ec6-9491-38a804861e3d
+
+java:S1854"7Remove this useless assignment to local variable "tv3".(ÎùÙÌûÿÿÿÿ8ìõ½‚2J$471feddc-f635-4bf4-a4ee-16361566f021
+
+java:S1854
+"7Remove this useless assignment to local variable "tv2".(’Î¶—şÿÿÿÿ8ìõ½‚2J$e3f84bf6-4622-47fd-9b9e-7a26faa5659b
+
+java:S1854	"7Remove this useless assignment to local variable "tv1".(¢÷‰şÿÿÿÿ8ìõ½‚2J$322e6710-c825-4bdf-8867-b39ecaea1880
+
+java:S1854"7Remove this useless assignment to local variable "tv0".(¡œøßşÿÿÿÿ8ìõ½‚2J$902fdc73-ca5e-41fd-abb9-934255e1e6d9
+p
+java:S1481"(Remove this unused "tv0" local variable.(¡œøßşÿÿÿÿ8‚ìõ½‚2J$2ed42edb-f64c-4c0d-99f1-a9b274bba6ed
+p
+java:S1481	"(Remove this unused "tv1" local variable.(¢÷‰şÿÿÿÿ8‚ìõ½‚2J$07af7a41-a65a-470b-b569-e319e80e41d0
+p
+java:S1481
+"(Remove this unused "tv2" local variable.(’Î¶—şÿÿÿÿ8‚ìõ½‚2J$cdecc3c1-f9e7-411d-bf19-f4394f5d2948
+p
+java:S1481"(Remove this unused "tv3" local variable.(ÎùÙÌûÿÿÿÿ8‚ìõ½‚2J$dd0f20c7-d492-489e-8711-340a015dc180
+p
+java:S1481"(Remove this unused "tv4" local variable.(ŸÊÿêúÿÿÿÿ8‚ìõ½‚2J$510df79a-3e2d-4476-abac-b15ea8c72f10
+p
+java:S1481"(Remove this unused "tv5" local variable.(åƒ’©ıÿÿÿÿ8‚ìõ½‚2J$bd688204-63b7-477a-b5f9-c7995c6ae01f
+p
+java:S1481"(Remove this unused "tv6" local variable.(×ıäıÿÿÿÿ8‚ìõ½‚2J$4787d951-5628-4a5a-93fd-c0a0b7233384
+p
+java:S1481"(Remove this unused "tv7" local variable.(°Ğûÿÿÿÿ8‚ìõ½‚2J$7554b0cc-dc42-4f40-b8e8-704c3d7a70b0
+p
+java:S1481"(Remove this unused "tv8" local variable.(êÙÍåüÿÿÿÿ8‚ìõ½‚2J$efb5f129-9161-446e-862c-da5c37e8ee78
+k
+java:S1481"(Remove this unused "tv9" local variable.(ª…½á8‚ìõ½‚2J$791699e5-f6c7-4fbd-9211-8f78c3d0419b
+v
+java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8‚ìõ½‚2J$ec574717-e69d-46a7-895c-7821be0c477b

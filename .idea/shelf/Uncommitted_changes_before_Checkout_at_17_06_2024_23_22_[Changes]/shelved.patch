@@ -1,0 +1,29 @@
+Index: src/homework05/App.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package homework05;\r\n\r\nimport java.util.Scanner;\r\n\r\npublic class App {\r\n    public static void main(String[] args) {\r\n\r\n        Televisions tv0 = new Televisions();\r\n        Televisions tv1= new Televisions();\r\n        Televisions tv2 = new Televisions();\r\n        Televisions tv3 = new Televisions();\r\n        Televisions tv4 = new Televisions();\r\n        Televisions tv5 = new Televisions();\r\n        Televisions tv6 = new Televisions();\r\n        Televisions tv7 = new Televisions();\r\n        Televisions tv8 = new Televisions();\r\n        Televisions tv9 = new Televisions();\r\n        Scanner sc = new Scanner(System.in);\r\n        tv0.setBrand(sc.nextLine());\r\n        tv1.setBrand(sc.nextLine());\r\n        tv2.setBrand(sc.nextLine());\r\n        tv3.setBrand(sc.nextLine());\r\n        tv4.setBrand(sc.nextLine());\r\n        tv5.setBrand(sc.nextLine());\r\n        tv6.setBrand(sc.nextLine());\r\n        tv7.setBrand(sc.nextLine());\r\n        tv8.setBrand(sc.nextLine());\r\n        tv9.setBrand(sc.nextLine());\r\n        System.out.println();\r\n\r\n    }\r\n}\r\n
+===================================================================
+diff --git a/src/homework05/App.java b/src/homework05/App.java
+--- a/src/homework05/App.java	
++++ b/src/homework05/App.java	
+@@ -15,18 +15,8 @@
+         Televisions tv7 = new Televisions();
+         Televisions tv8 = new Televisions();
+         Televisions tv9 = new Televisions();
+-        Scanner sc = new Scanner(System.in);
+-        tv0.setBrand(sc.nextLine());
+-        tv1.setBrand(sc.nextLine());
+-        tv2.setBrand(sc.nextLine());
+-        tv3.setBrand(sc.nextLine());
+-        tv4.setBrand(sc.nextLine());
+-        tv5.setBrand(sc.nextLine());
+-        tv6.setBrand(sc.nextLine());
+-        tv7.setBrand(sc.nextLine());
+-        tv8.setBrand(sc.nextLine());
+-        tv9.setBrand(sc.nextLine());
+-        System.out.println();
++
++
+ 
+     }
+ }

@@ -1,0 +1,21 @@
+
+š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ç¤Ì½ÿÿÿÿÿJ$8737f3db-e449-4e00-9ddd-64741db9c728
+ˆ	java:S112$"FDefine and throw a dedicated exception instead of using a generic one.(‹ÄìÆ8ŒşÁäŠ2J$fd867d7b-10ba-458a-bdb6-7df54a32ccad
+‡	java:S112""FDefine and throw a dedicated exception instead of using a generic one.(»Ÿã8ŒşÁäŠ2J$d1e96159-9da2-4ebd-bd82-e79f90c88dfb
+ˆ	java:S112/"FDefine and throw a dedicated exception instead of using a generic one.(‹ÄìÆ8ŒşÁäŠ2J$c6a00ce7-3296-4e00-85ca-65c5f6428f80
+	java:S112*"FDefine and throw a dedicated exception instead of using a generic one.(óìØ³ûÿÿÿÿ8şÁäŠ2J$7df8b974-d223-41e6-b4a9-de29116a3f4a
+	java:S1126"FDefine and throw a dedicated exception instead of using a generic one.(ü¶œúùÿÿÿÿ8şÁäŠ2J$f30fbcef-f47b-45e1-b7eb-9aa4506a21ca
+	java:S1124"FDefine and throw a dedicated exception instead of using a generic one.(¡§¦šüÿÿÿÿ8şÁäŠ2J$b11351c4-b6fc-4fd5-be47-edb44e85a43b
+	java:S112@"FDefine and throw a dedicated exception instead of using a generic one.(ü¶œúùÿÿÿÿ8şÁäŠ2J$ec05cff8-714f-4d6c-b6bf-43cb2ab51b09
+ˆ	java:S112;"FDefine and throw a dedicated exception instead of using a generic one.(İÎü 8şÁäŠ2J$cf7c7812-e116-463a-99db-ce799cdfec1c
+r	java:S106+"+Replace this use of System.out by a logger.(·œÄîûÿÿÿÿ8–şÁäŠ2J$ba316807-4f8e-476e-95d1-07e6fd397dfd
+€
+java:S1117,"8Rename "name" which hides the field declared at line 10.(Ü°ŒŸÿÿÿÿÿ8–şÁäŠ2J$54d98275-fc77-4fc7-ad91-3aa9a19925b2
+r	java:S106<"+Replace this use of System.out by a logger.(±è’°ÿÿÿÿÿ8šşÁäŠ2J$525ef78e-9b45-4b55-95d8-b99f8764a373
+|
+java:S1117="9Rename "money" which hides the field declared at line 11.(ôºŸû8˜şÁäŠ2J$1c42c799-680a-4f2d-84ce-4f65b9dc87b1
+m	java:S106G"+Replace this use of System.out by a logger.(çÌ ¾8œşÁäŠ2J$c10bfa2c-ad85-4d91-b092-e96bae625067
+l	java:S106M"+Replace this use of System.out by a logger.(î«Õk8şÁäŠ2J$d64ec95c-03e7-4308-a4fd-5b0b248419c0
+~	java:S125V"<This block of commented-out lines of code should be removed.(ŞóÇÑ8şÁäŠ2J$a96c625e-1d2d-475f-abb7-39dc2490b474
+r	java:S106X"+Replace this use of System.out by a logger.(­Ùçóıÿÿÿÿ8şÁäŠ2J$8a4f021f-7a01-4a0a-9d37-c8b8c7f89d60
+r	java:S106Z"+Replace this use of System.out by a logger.(ˆúÇşÿÿÿÿ8ëóÊäŠ2J$02eb6e1b-5c9e-485b-8d8c-f62a445b204a

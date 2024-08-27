@@ -1,0 +1,21 @@
+
+š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ç¤Ì½ÿÿÿÿÿJ$58b1a068-73e6-4daf-baad-3e58b83047c2
+	java:S112$"FDefine and throw a dedicated exception instead of using a generic one.(‹ÄìÆJ$ad1414b6-59fd-4e73-abff-d330068bfff4
+€	java:S112""FDefine and throw a dedicated exception instead of using a generic one.(»ŸãJ$3ff749fa-0c63-4a6f-8d31-3c5a6081b8f2
+	java:S112/"FDefine and throw a dedicated exception instead of using a generic one.(‹ÄìÆJ$9fa80af7-f03e-4d47-a3ff-1fa405c02a87
+†	java:S112*"FDefine and throw a dedicated exception instead of using a generic one.(óìØ³ûÿÿÿÿJ$98fa5b07-cc8e-4b5b-9d7e-807455d8fc10
+†	java:S1126"FDefine and throw a dedicated exception instead of using a generic one.(ü¶œúùÿÿÿÿJ$f5ac7668-9f7b-445e-bed7-b7f76bed3414
+†	java:S1124"FDefine and throw a dedicated exception instead of using a generic one.(¡§¦šüÿÿÿÿJ$7c273436-b875-4552-ba61-ce9a1a8a7cb7
+†	java:S112@"FDefine and throw a dedicated exception instead of using a generic one.(ü¶œúùÿÿÿÿJ$62f250e9-6913-4a24-9f94-9f4b235799fe
+	java:S112;"FDefine and throw a dedicated exception instead of using a generic one.(İÎü J$9966ad22-29e3-4228-8084-b2268a7bc1ee
+k	java:S106+"+Replace this use of System.out by a logger.(·œÄîûÿÿÿÿJ$bcec5fe6-f35a-4e5e-b7f1-fed1d5c43a3b
+y
+java:S1117,"8Rename "name" which hides the field declared at line 10.(Ü°ŒŸÿÿÿÿÿJ$cd6f7829-67a6-4264-ac0d-3ceb322eb608
+k	java:S106<"+Replace this use of System.out by a logger.(±è’°ÿÿÿÿÿJ$a664100a-c81a-4547-b997-5bd349d6b230
+u
+java:S1117="9Rename "money" which hides the field declared at line 11.(ôºŸûJ$423898f8-abc7-478b-9781-eb8af788d8ff
+f	java:S106G"+Replace this use of System.out by a logger.(çÌ ¾J$27f2db54-b0af-4cb8-b202-b6d19c5514d7
+e	java:S106M"+Replace this use of System.out by a logger.(î«ÕkJ$5923f084-e23f-4a8f-abd5-172a3a241ad6
+w	java:S125V"<This block of commented-out lines of code should be removed.(ŞóÇÑJ$c7d9ccc6-c4aa-45b4-9d2c-0d5360fe2bb6
+k	java:S106X"+Replace this use of System.out by a logger.(­ÙçóıÿÿÿÿJ$f8c5eea6-d3e8-47bc-aed6-c7b495439b22
+k	java:S106Z"+Replace this use of System.out by a logger.(ˆúÇşÿÿÿÿJ$8ca90c04-bf17-4473-a4df-3e7f7db44516

@@ -1,0 +1,8 @@
+
+m	java:S106#"+Replace this use of System.out by a logger.(—•Ü8Ó‚¾ù˜2J$ccbced88-30cb-4fe9-b00f-99a1b38c4e00
+~	java:S125"<This block of commented-out lines of code should be removed.(Ïë–È8Õ‚¾ù˜2J$fc79cbfb-bd18-456f-9987-fe8c0aaa78eb
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(§®ÁÜúÿÿÿÿ8Ü‚¾ù˜2J$854b517a-fcdb-4dbb-b5a8-8051165f38b5
+{
+java:S1128"3Remove this unused import 'attestation.model.User'.(³È¥Ëÿÿÿÿÿ8ß‚¾ù˜2J$847e4a24-c400-4eed-89b5-4650d8e64ffc
+s
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ß‚¾ù˜2J$402dc2b0-98e7-455e-bc6c-604f1ece4a54

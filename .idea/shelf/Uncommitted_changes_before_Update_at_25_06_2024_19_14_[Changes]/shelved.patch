@@ -1,0 +1,119 @@
+Index: src/homework06/App.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/homework06/App.java b/src/homework06/App.java
+new file mode 100644
+--- /dev/null	(date 1719242826664)
++++ b/src/homework06/App.java	(date 1719242826664)
+@@ -0,0 +1,11 @@
++package homework06;
++
++public class App {
++    public static void main(String[] args) {
++
++
++        
++
++
++    }
++}
+Index: src/homework06/Person.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/homework06/Person.java b/src/homework06/Person.java
+new file mode 100644
+--- /dev/null	(date 1718819713516)
++++ b/src/homework06/Person.java	(date 1718819713516)
+@@ -0,0 +1,50 @@
++package homework06;
++
++import java.util.Objects;
++
++public class Person {
++   private String name;
++   private int money;
++
++   public Person(String name, int money) {
++      this.name = name;
++      this.money = money;
++   }
++
++   @Override
++   public String toString() {
++      return "Person{" +
++              "name='" + name + '\'' +
++              ", money=" + money +
++              '}';
++   }
++
++   @Override
++   public boolean equals(Object o) {
++      if (this == o) return true;
++      if (o == null || getClass() != o.getClass()) return false;
++      Person person = (Person) o;
++      return money == person.money && Objects.equals(name, person.name);
++   }
++
++   @Override
++   public int hashCode() {
++      return Objects.hash(name, money);
++   }
++
++   public String getName() {
++      return name;
++   }
++
++   public void setName(String name) {
++      this.name = name;
++   }
++
++   public int getMoney() {
++      return money;
++   }
++
++   public void setMoney(int money) {
++      this.money = money;
++   }
++}
+Index: src/homework06/Product.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/homework06/Product.java b/src/homework06/Product.java
+new file mode 100644
+--- /dev/null	(date 1718818557418)
++++ b/src/homework06/Product.java	(date 1718818557418)
+@@ -0,0 +1,8 @@
++package homework06;
++
++public class Product {
++    private String product;
++    private int price;
++
++
++}
+Index: game.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"JAVA_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\" inherit-compiler-output=\"true\">\r\n    <exclude-output />\r\n    <content url=\"file://$MODULE_DIR$\">\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src\" isTestSource=\"false\" />\r\n    </content>\r\n    <orderEntry type=\"inheritedJdk\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/game.iml b/game.iml
+--- a/game.iml	(revision 33a6e5c4a9bdf2e8f709d4883b2d57a35d1f5388)
++++ b/game.iml	(date 1718818902863)
+@@ -5,7 +5,7 @@
+     <content url="file://$MODULE_DIR$">
+       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+     </content>
+-    <orderEntry type="inheritedJdk" />
++    <orderEntry type="jdk" jdkName="17" jdkType="JavaSDK" />
+     <orderEntry type="sourceFolder" forTests="false" />
+   </component>
+ </module>
+\ No newline at end of file

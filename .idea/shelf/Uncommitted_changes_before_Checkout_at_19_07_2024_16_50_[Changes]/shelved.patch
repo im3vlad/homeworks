@@ -1,0 +1,242 @@
+Index: .idea/sonarlint/issuestore/index.pb
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\nG\n\u0017src/homework05/App.java\u0012,7\\c\\7c6db06577992867ec93edbf41e31fc8a7f07d98\nO\n\u001Fsrc/homework05/Televisions.java\u0012,c\\8\\c8074032f9d60f2a331c5d2d5503e0734b271fbe\n�\u0001\nQ.idea/sonarlint/securityhotspotstore/a/9/a9b470fb4b67dbc02c969e3ac8676a51f56739be\u0012,4\\c\\4c6029c290131e9eaed08e8d769c0adf4ae5539a\n�\u0001\nQ.idea/sonarlint/securityhotspotstore/b/0/b0858bb2b6ccbccec90e62e769a1fa13c320f2e2\u0012,3\\8\\387baca9b6f9a0c4f423116ea0dc9e4011a729fc\nw\nG.idea/sonarlint/issuestore/5/6/563da028614e21749695b15fccd4a385e70d8346\u0012,0\\1\\016054147efed7b4cd67a5438953a78fe23efb8f\nw\nG.idea/sonarlint/issuestore/e/e/ee77819b3b918b09c3b321b6f766061aac0aa118\u0012,b\\0\\b083831624c28163b0fd7ce7e067e6b2467fdfc5\n�\u0001\nQ.idea/sonarlint/securityhotspotstore/6/6/662333f00d2c5939b5d7a7f4ecec4b40b8ea46d4\u0012,9\\5\\95630b9f49de5af01c8bdcc9904debb3ed7b3392\n�\u0001\nQ.idea/sonarlint/securityhotspotstore/7/c/7c6db06577992867ec93edbf41e31fc8a7f07d98\u0012,9\\5\\958d658acf2d65e071a6a7618653a3c60923b588\nw\nG.idea/sonarlint/issuestore/5/6/568ab3dfa71df438f25bad2393543091d4f8868f\u0012,d\\0\\d021557fb7714253ac82e37b7dc1eaa274b0fd26\n�\u0001\nQ.idea/sonarlint/securityhotspotstore/b/8/b8792f7569afb04e93ae07d923c5005933c47d72\u0012,a\\c\\ac5555d53cf75463cd28b3e97e362c40fb5b2741\n�\u0001\nQ.idea/sonarlint/securityhotspotstore/e/a/ea229b91c85ba49ba087e631c711bf80477adbe3\u0012,0\\d\\0d1cc2ff68dcddd91647c9af3f941f51a1665b21\n�\u0001\nQ.idea/sonarlint/securityhotspotstore/e/e/ee77819b3b918b09c3b321b6f766061aac0aa118\u0012,4\\a\\4aa3bcfdc50e7d02aceb574a9f822366d744dab2\n�\u0001\nQ.idea/sonarlint/securityhotspotstore/4/d/4dadf46c1168eb503bb82c59814459986a62e920\u0012,0\\3\\033c84dc7bf8a8dc9707debe49f7bc74e6bfed45\n]\n-.idea/sonarlint/securityhotspotstore/index.pb\u0012,8\\8\\88a9255124c95bdc913197c120a8d560edc59c8e\n�\u0001\nQ.idea/sonarlint/securityhotspotstore/e/a/eac24820a538ac6aa57996a0f84b3c59610b9e01\u0012,4\\f\\4f284f0d26b9ee1a0b24b86c60aa61d8a87245a9\nS\n#.idea/sonarlint/issuestore/index.pb\u0012,9\\f\\9fe84ebb15faf917b7def6236dba604453cc61e0\n�\u0001\nQ.idea/sonarlint/securityhotspotstore/b/6/b6a2db719ba158828e64162da44077cd3adcad2f\u0012,1\\5\\152ff4b35743d5c3d4c1f8ed1839ab2fe0b28c00\n�\u0001\nQ.idea/sonarlint/securityhotspotstore/5/6/568ab3dfa71df438f25bad2393543091d4f8868f\u0012,6\\2\\6232393c7b3d5332c643cbab39c008c98e9ae99d\n�\u0001\nQ.idea/sonarlint/securityhotspotstore/1/6/161110988e71269b1b09d3e9b6b93087444c3915\u0012,d\\c\\dc9878fc29bc9b4da2426cc9a2e4ff29752cccaf\n�\u0001\nQ.idea/sonarlint/securityhotspotstore/1/1/113e9fcfc5c80d19b25cbd5d182b83e026ef3dfe\u0012,5\\c\\5c4dc26fb3e4ecb7866a5b331662fea721f481ff\n�\u0001\nQ.idea/sonarlint/securityhotspotstore/c/8/c8074032f9d60f2a331c5d2d5503e0734b271fbe\u0012,a\\b\\ab1a071510296c5b7d06222192fb88eb675b4877\n�\u0001\nQ.idea/sonarlint/securityhotspotstore/3/8/384d50e4fdeaf122431c9e232afacf113f06c3ca\u0012,0\\d\\0d61ffddf3fc5dd62e8e6e77a26fd2891fd70c78\n�\u0001\nQ.idea/sonarlint/securityhotspotstore/5/5/55e34ee1fe9391b802dd3b71cf97b20277a10b5e\u0012,7\\7\\7775510073ce796878e970942a1b0b51503d708a\n�\u0001\nQ.idea/sonarlint/securityhotspotstore/5/6/563da028614e21749695b15fccd4a385e70d8346\u0012,0\\5\\051e61a799f7116a3ca6f73de5fa35e78ce3ac0d\nH\n\u0018src/homework01/Game.java\u0012,3\\8\\384d50e4fdeaf122431c9e232afacf113f06c3ca\nN\n\u001Esrc/homework03/Television.java\u0012,1\\1\\113e9fcfc5c80d19b25cbd5d182b83e026ef3dfe\nG\n\u0017src/homework03/App.java\u0012,6\\6\\662333f00d2c5939b5d7a7f4ecec4b40b8ea46d4\nK\n\u001Bsrc/homework05/Utilita.java\u0012,8\\4\\847d25de03b645ee4989d6e952667b860eb5cc02
+===================================================================
+diff --git a/.idea/sonarlint/issuestore/index.pb b/.idea/sonarlint/issuestore/index.pb
+--- a/.idea/sonarlint/issuestore/index.pb	
++++ b/.idea/sonarlint/issuestore/index.pb	
+@@ -1,57 +1,44 @@
+ 
+-G
+-src/homework05/App.java,7\c\7c6db06577992867ec93edbf41e31fc8a7f07d98
+ O
+ src/homework05/Televisions.java,c\8\c8074032f9d60f2a331c5d2d5503e0734b271fbe
+-�
+-Q.idea/sonarlint/securityhotspotstore/a/9/a9b470fb4b67dbc02c969e3ac8676a51f56739be,4\c\4c6029c290131e9eaed08e8d769c0adf4ae5539a
+-�
+-Q.idea/sonarlint/securityhotspotstore/b/0/b0858bb2b6ccbccec90e62e769a1fa13c320f2e2,3\8\387baca9b6f9a0c4f423116ea0dc9e4011a729fc
+-w
+-G.idea/sonarlint/issuestore/5/6/563da028614e21749695b15fccd4a385e70d8346,0\1\016054147efed7b4cd67a5438953a78fe23efb8f
+-w
+-G.idea/sonarlint/issuestore/e/e/ee77819b3b918b09c3b321b6f766061aac0aa118,b\0\b083831624c28163b0fd7ce7e067e6b2467fdfc5
+-�
+-Q.idea/sonarlint/securityhotspotstore/6/6/662333f00d2c5939b5d7a7f4ecec4b40b8ea46d4,9\5\95630b9f49de5af01c8bdcc9904debb3ed7b3392
+-�
+-Q.idea/sonarlint/securityhotspotstore/7/c/7c6db06577992867ec93edbf41e31fc8a7f07d98,9\5\958d658acf2d65e071a6a7618653a3c60923b588
+-w
+-G.idea/sonarlint/issuestore/5/6/568ab3dfa71df438f25bad2393543091d4f8868f,d\0\d021557fb7714253ac82e37b7dc1eaa274b0fd26
+-�
+-Q.idea/sonarlint/securityhotspotstore/b/8/b8792f7569afb04e93ae07d923c5005933c47d72,a\c\ac5555d53cf75463cd28b3e97e362c40fb5b2741
+-�
+-Q.idea/sonarlint/securityhotspotstore/e/a/ea229b91c85ba49ba087e631c711bf80477adbe3,0\d\0d1cc2ff68dcddd91647c9af3f941f51a1665b21
+-�
+-Q.idea/sonarlint/securityhotspotstore/e/e/ee77819b3b918b09c3b321b6f766061aac0aa118,4\a\4aa3bcfdc50e7d02aceb574a9f822366d744dab2
+-�
+-Q.idea/sonarlint/securityhotspotstore/4/d/4dadf46c1168eb503bb82c59814459986a62e920,0\3\033c84dc7bf8a8dc9707debe49f7bc74e6bfed45
+-]
+--.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
+-�
+-Q.idea/sonarlint/securityhotspotstore/e/a/eac24820a538ac6aa57996a0f84b3c59610b9e01,4\f\4f284f0d26b9ee1a0b24b86c60aa61d8a87245a9
+-S
+-#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+-�
+-Q.idea/sonarlint/securityhotspotstore/b/6/b6a2db719ba158828e64162da44077cd3adcad2f,1\5\152ff4b35743d5c3d4c1f8ed1839ab2fe0b28c00
+-�
+-Q.idea/sonarlint/securityhotspotstore/5/6/568ab3dfa71df438f25bad2393543091d4f8868f,6\2\6232393c7b3d5332c643cbab39c008c98e9ae99d
+-�
+-Q.idea/sonarlint/securityhotspotstore/1/6/161110988e71269b1b09d3e9b6b93087444c3915,d\c\dc9878fc29bc9b4da2426cc9a2e4ff29752cccaf
+-�
+-Q.idea/sonarlint/securityhotspotstore/1/1/113e9fcfc5c80d19b25cbd5d182b83e026ef3dfe,5\c\5c4dc26fb3e4ecb7866a5b331662fea721f481ff
+-�
+-Q.idea/sonarlint/securityhotspotstore/c/8/c8074032f9d60f2a331c5d2d5503e0734b271fbe,a\b\ab1a071510296c5b7d06222192fb88eb675b4877
+-�
+-Q.idea/sonarlint/securityhotspotstore/3/8/384d50e4fdeaf122431c9e232afacf113f06c3ca,0\d\0d61ffddf3fc5dd62e8e6e77a26fd2891fd70c78
+-�
+-Q.idea/sonarlint/securityhotspotstore/5/5/55e34ee1fe9391b802dd3b71cf97b20277a10b5e,7\7\7775510073ce796878e970942a1b0b51503d708a
+-�
+-Q.idea/sonarlint/securityhotspotstore/5/6/563da028614e21749695b15fccd4a385e70d8346,0\5\051e61a799f7116a3ca6f73de5fa35e78ce3ac0d
+-H
+-src/homework01/Game.java,3\8\384d50e4fdeaf122431c9e232afacf113f06c3ca
++G
++src/homework05/App.java,7\c\7c6db06577992867ec93edbf41e31fc8a7f07d98
+ N
+ src/homework03/Television.java,1\1\113e9fcfc5c80d19b25cbd5d182b83e026ef3dfe
+ G
+ src/homework03/App.java,6\6\662333f00d2c5939b5d7a7f4ecec4b40b8ea46d4
++H
++src/homework01/Game.java,3\8\384d50e4fdeaf122431c9e232afacf113f06c3ca
++K
++src/homework02/Actions.java,e\a\ea229b91c85ba49ba087e631c711bf80477adbe3
++H
++src/homework02/Java.java,e\a\eac24820a538ac6aa57996a0f84b3c59610b9e01
++H
++src/homework02/Grid.java,b\6\b6a2db719ba158828e64162da44077cd3adcad2f
++K
++src/homework02/Celsius.java,5\5\55e34ee1fe9391b802dd3b71cf97b20277a10b5e
++H
++src/homeworks07/App.java,9\4\9417253b74531664d48c1deab5ad6240baaa4df6
++K
++src/homeworks07/Person.java,6\2\62a83a832f3f3977a70d05663f1e1312aa472c3e
++L
++src/homeworks07/Product.java,d\0\d05ab5498dc63d691562b17cc307a189775378ad
++T
++$src/homeworks07/DiscountProduct.java,0\8\08aeac2789d77e1bb5c541ff0d968284db31813b
++H
++src/homeworks08/App.java,7\1\7133a4449d05b32cbcf1959c628740db3760f2d2
++K
++src/homeworks08/Person.java,1\b\1b28f6813e0fe1cb4a2b774b913b0d5d09d1295e
++L
++src/homeworks08/Product.java,3\4\348077c8f4ab64c8e79e2a18a1532a22e2276ecd
++T
++$src/homeworks08/DiscountProduct.java,3\3\33995d2023d21d7b986cfd8a1ac319ff4ee22917
++:
++
++myfile.txt,4\a\4a0696e759bd62b728f956517f9ecec08a0f5851
++L
++src/homework006/Product.java,7\8\78ef62dde011ba12f12760456f7608402fff21cf
++H
++src/homework006/App.java,3\0\30a4ee2e2b886092fb5c117e5a83ba90ea2ba21f
+ K
+-src/homework05/Utilita.java,8\4\847d25de03b645ee4989d6e952667b860eb5cc02
+\ No newline at end of file
++src/homework006/Person.java,b\d\bdd30e91522b81031528a663d0dea950a97ac465
+\ No newline at end of file
+Index: .idea/sonarlint/securityhotspotstore/index.pb
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\nG\n\u0017src/homework05/App.java\u0012,7\\c\\7c6db06577992867ec93edbf41e31fc8a7f07d98\nO\n\u001Fsrc/homework05/Televisions.java\u0012,c\\8\\c8074032f9d60f2a331c5d2d5503e0734b271fbe\n�\u0001\nQ.idea/sonarlint/securityhotspotstore/a/9/a9b470fb4b67dbc02c969e3ac8676a51f56739be\u0012,4\\c\\4c6029c290131e9eaed08e8d769c0adf4ae5539a\n�\u0001\nQ.idea/sonarlint/securityhotspotstore/b/0/b0858bb2b6ccbccec90e62e769a1fa13c320f2e2\u0012,3\\8\\387baca9b6f9a0c4f423116ea0dc9e4011a729fc\nw\nG.idea/sonarlint/issuestore/5/6/563da028614e21749695b15fccd4a385e70d8346\u0012,0\\1\\016054147efed7b4cd67a5438953a78fe23efb8f\nw\nG.idea/sonarlint/issuestore/e/e/ee77819b3b918b09c3b321b6f766061aac0aa118\u0012,b\\0\\b083831624c28163b0fd7ce7e067e6b2467fdfc5\n�\u0001\nQ.idea/sonarlint/securityhotspotstore/6/6/662333f00d2c5939b5d7a7f4ecec4b40b8ea46d4\u0012,9\\5\\95630b9f49de5af01c8bdcc9904debb3ed7b3392\n�\u0001\nQ.idea/sonarlint/securityhotspotstore/7/c/7c6db06577992867ec93edbf41e31fc8a7f07d98\u0012,9\\5\\958d658acf2d65e071a6a7618653a3c60923b588\nw\nG.idea/sonarlint/issuestore/5/6/568ab3dfa71df438f25bad2393543091d4f8868f\u0012,d\\0\\d021557fb7714253ac82e37b7dc1eaa274b0fd26\n�\u0001\nQ.idea/sonarlint/securityhotspotstore/b/8/b8792f7569afb04e93ae07d923c5005933c47d72\u0012,a\\c\\ac5555d53cf75463cd28b3e97e362c40fb5b2741\n�\u0001\nQ.idea/sonarlint/securityhotspotstore/e/a/ea229b91c85ba49ba087e631c711bf80477adbe3\u0012,0\\d\\0d1cc2ff68dcddd91647c9af3f941f51a1665b21\n�\u0001\nQ.idea/sonarlint/securityhotspotstore/e/e/ee77819b3b918b09c3b321b6f766061aac0aa118\u0012,4\\a\\4aa3bcfdc50e7d02aceb574a9f822366d744dab2\n�\u0001\nQ.idea/sonarlint/securityhotspotstore/4/d/4dadf46c1168eb503bb82c59814459986a62e920\u0012,0\\3\\033c84dc7bf8a8dc9707debe49f7bc74e6bfed45\n]\n-.idea/sonarlint/securityhotspotstore/index.pb\u0012,8\\8\\88a9255124c95bdc913197c120a8d560edc59c8e\n�\u0001\nQ.idea/sonarlint/securityhotspotstore/e/a/eac24820a538ac6aa57996a0f84b3c59610b9e01\u0012,4\\f\\4f284f0d26b9ee1a0b24b86c60aa61d8a87245a9\nS\n#.idea/sonarlint/issuestore/index.pb\u0012,9\\f\\9fe84ebb15faf917b7def6236dba604453cc61e0\n�\u0001\nQ.idea/sonarlint/securityhotspotstore/b/6/b6a2db719ba158828e64162da44077cd3adcad2f\u0012,1\\5\\152ff4b35743d5c3d4c1f8ed1839ab2fe0b28c00\n�\u0001\nQ.idea/sonarlint/securityhotspotstore/5/6/568ab3dfa71df438f25bad2393543091d4f8868f\u0012,6\\2\\6232393c7b3d5332c643cbab39c008c98e9ae99d\n�\u0001\nQ.idea/sonarlint/securityhotspotstore/1/6/161110988e71269b1b09d3e9b6b93087444c3915\u0012,d\\c\\dc9878fc29bc9b4da2426cc9a2e4ff29752cccaf\n�\u0001\nQ.idea/sonarlint/securityhotspotstore/1/1/113e9fcfc5c80d19b25cbd5d182b83e026ef3dfe\u0012,5\\c\\5c4dc26fb3e4ecb7866a5b331662fea721f481ff\n�\u0001\nQ.idea/sonarlint/securityhotspotstore/c/8/c8074032f9d60f2a331c5d2d5503e0734b271fbe\u0012,a\\b\\ab1a071510296c5b7d06222192fb88eb675b4877\n�\u0001\nQ.idea/sonarlint/securityhotspotstore/3/8/384d50e4fdeaf122431c9e232afacf113f06c3ca\u0012,0\\d\\0d61ffddf3fc5dd62e8e6e77a26fd2891fd70c78\n�\u0001\nQ.idea/sonarlint/securityhotspotstore/5/5/55e34ee1fe9391b802dd3b71cf97b20277a10b5e\u0012,7\\7\\7775510073ce796878e970942a1b0b51503d708a\n�\u0001\nQ.idea/sonarlint/securityhotspotstore/5/6/563da028614e21749695b15fccd4a385e70d8346\u0012,0\\5\\051e61a799f7116a3ca6f73de5fa35e78ce3ac0d\nH\n\u0018src/homework01/Game.java\u0012,3\\8\\384d50e4fdeaf122431c9e232afacf113f06c3ca\nN\n\u001Esrc/homework03/Television.java\u0012,1\\1\\113e9fcfc5c80d19b25cbd5d182b83e026ef3dfe\nG\n\u0017src/homework03/App.java\u0012,6\\6\\662333f00d2c5939b5d7a7f4ecec4b40b8ea46d4\nK\n\u001Bsrc/homework05/Utilita.java\u0012,8\\4\\847d25de03b645ee4989d6e952667b860eb5cc02
+===================================================================
+diff --git a/.idea/sonarlint/securityhotspotstore/index.pb b/.idea/sonarlint/securityhotspotstore/index.pb
+--- a/.idea/sonarlint/securityhotspotstore/index.pb	
++++ b/.idea/sonarlint/securityhotspotstore/index.pb	
+@@ -1,57 +1,44 @@
+ 
+-G
+-src/homework05/App.java,7\c\7c6db06577992867ec93edbf41e31fc8a7f07d98
+ O
+ src/homework05/Televisions.java,c\8\c8074032f9d60f2a331c5d2d5503e0734b271fbe
+-�
+-Q.idea/sonarlint/securityhotspotstore/a/9/a9b470fb4b67dbc02c969e3ac8676a51f56739be,4\c\4c6029c290131e9eaed08e8d769c0adf4ae5539a
+-�
+-Q.idea/sonarlint/securityhotspotstore/b/0/b0858bb2b6ccbccec90e62e769a1fa13c320f2e2,3\8\387baca9b6f9a0c4f423116ea0dc9e4011a729fc
+-w
+-G.idea/sonarlint/issuestore/5/6/563da028614e21749695b15fccd4a385e70d8346,0\1\016054147efed7b4cd67a5438953a78fe23efb8f
+-w
+-G.idea/sonarlint/issuestore/e/e/ee77819b3b918b09c3b321b6f766061aac0aa118,b\0\b083831624c28163b0fd7ce7e067e6b2467fdfc5
+-�
+-Q.idea/sonarlint/securityhotspotstore/6/6/662333f00d2c5939b5d7a7f4ecec4b40b8ea46d4,9\5\95630b9f49de5af01c8bdcc9904debb3ed7b3392
+-�
+-Q.idea/sonarlint/securityhotspotstore/7/c/7c6db06577992867ec93edbf41e31fc8a7f07d98,9\5\958d658acf2d65e071a6a7618653a3c60923b588
+-w
+-G.idea/sonarlint/issuestore/5/6/568ab3dfa71df438f25bad2393543091d4f8868f,d\0\d021557fb7714253ac82e37b7dc1eaa274b0fd26
+-�
+-Q.idea/sonarlint/securityhotspotstore/b/8/b8792f7569afb04e93ae07d923c5005933c47d72,a\c\ac5555d53cf75463cd28b3e97e362c40fb5b2741
+-�
+-Q.idea/sonarlint/securityhotspotstore/e/a/ea229b91c85ba49ba087e631c711bf80477adbe3,0\d\0d1cc2ff68dcddd91647c9af3f941f51a1665b21
+-�
+-Q.idea/sonarlint/securityhotspotstore/e/e/ee77819b3b918b09c3b321b6f766061aac0aa118,4\a\4aa3bcfdc50e7d02aceb574a9f822366d744dab2
+-�
+-Q.idea/sonarlint/securityhotspotstore/4/d/4dadf46c1168eb503bb82c59814459986a62e920,0\3\033c84dc7bf8a8dc9707debe49f7bc74e6bfed45
+-]
+--.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
+-�
+-Q.idea/sonarlint/securityhotspotstore/e/a/eac24820a538ac6aa57996a0f84b3c59610b9e01,4\f\4f284f0d26b9ee1a0b24b86c60aa61d8a87245a9
+-S
+-#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+-�
+-Q.idea/sonarlint/securityhotspotstore/b/6/b6a2db719ba158828e64162da44077cd3adcad2f,1\5\152ff4b35743d5c3d4c1f8ed1839ab2fe0b28c00
+-�
+-Q.idea/sonarlint/securityhotspotstore/5/6/568ab3dfa71df438f25bad2393543091d4f8868f,6\2\6232393c7b3d5332c643cbab39c008c98e9ae99d
+-�
+-Q.idea/sonarlint/securityhotspotstore/1/6/161110988e71269b1b09d3e9b6b93087444c3915,d\c\dc9878fc29bc9b4da2426cc9a2e4ff29752cccaf
+-�
+-Q.idea/sonarlint/securityhotspotstore/1/1/113e9fcfc5c80d19b25cbd5d182b83e026ef3dfe,5\c\5c4dc26fb3e4ecb7866a5b331662fea721f481ff
+-�
+-Q.idea/sonarlint/securityhotspotstore/c/8/c8074032f9d60f2a331c5d2d5503e0734b271fbe,a\b\ab1a071510296c5b7d06222192fb88eb675b4877
+-�
+-Q.idea/sonarlint/securityhotspotstore/3/8/384d50e4fdeaf122431c9e232afacf113f06c3ca,0\d\0d61ffddf3fc5dd62e8e6e77a26fd2891fd70c78
+-�
+-Q.idea/sonarlint/securityhotspotstore/5/5/55e34ee1fe9391b802dd3b71cf97b20277a10b5e,7\7\7775510073ce796878e970942a1b0b51503d708a
+-�
+-Q.idea/sonarlint/securityhotspotstore/5/6/563da028614e21749695b15fccd4a385e70d8346,0\5\051e61a799f7116a3ca6f73de5fa35e78ce3ac0d
+-H
+-src/homework01/Game.java,3\8\384d50e4fdeaf122431c9e232afacf113f06c3ca
++G
++src/homework05/App.java,7\c\7c6db06577992867ec93edbf41e31fc8a7f07d98
+ N
+ src/homework03/Television.java,1\1\113e9fcfc5c80d19b25cbd5d182b83e026ef3dfe
+ G
+ src/homework03/App.java,6\6\662333f00d2c5939b5d7a7f4ecec4b40b8ea46d4
++H
++src/homework01/Game.java,3\8\384d50e4fdeaf122431c9e232afacf113f06c3ca
++K
++src/homework02/Actions.java,e\a\ea229b91c85ba49ba087e631c711bf80477adbe3
++H
++src/homework02/Java.java,e\a\eac24820a538ac6aa57996a0f84b3c59610b9e01
++H
++src/homework02/Grid.java,b\6\b6a2db719ba158828e64162da44077cd3adcad2f
++K
++src/homework02/Celsius.java,5\5\55e34ee1fe9391b802dd3b71cf97b20277a10b5e
++H
++src/homeworks07/App.java,9\4\9417253b74531664d48c1deab5ad6240baaa4df6
++K
++src/homeworks07/Person.java,6\2\62a83a832f3f3977a70d05663f1e1312aa472c3e
++L
++src/homeworks07/Product.java,d\0\d05ab5498dc63d691562b17cc307a189775378ad
++T
++$src/homeworks07/DiscountProduct.java,0\8\08aeac2789d77e1bb5c541ff0d968284db31813b
++H
++src/homeworks08/App.java,7\1\7133a4449d05b32cbcf1959c628740db3760f2d2
++K
++src/homeworks08/Person.java,1\b\1b28f6813e0fe1cb4a2b774b913b0d5d09d1295e
++L
++src/homeworks08/Product.java,3\4\348077c8f4ab64c8e79e2a18a1532a22e2276ecd
++T
++$src/homeworks08/DiscountProduct.java,3\3\33995d2023d21d7b986cfd8a1ac319ff4ee22917
++:
++
++myfile.txt,4\a\4a0696e759bd62b728f956517f9ecec08a0f5851
++L
++src/homework006/Product.java,7\8\78ef62dde011ba12f12760456f7608402fff21cf
++H
++src/homework006/App.java,3\0\30a4ee2e2b886092fb5c117e5a83ba90ea2ba21f
+ K
+-src/homework05/Utilita.java,8\4\847d25de03b645ee4989d6e952667b860eb5cc02
+\ No newline at end of file
++src/homework006/Person.java,b\d\bdd30e91522b81031528a663d0dea950a97ac465
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"VcsDirectoryMappings\">\r\n    <mapping directory=\"$PROJECT_DIR$\" vcs=\"Git\" />\r\n  </component>\r\n</project>
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+--- a/.idea/vcs.xml	
++++ b/.idea/vcs.xml	
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="VcsDirectoryMappings">
+-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++    <mapping directory="" vcs="Git" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_17\" default=\"true\" project-jdk-name=\"17\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/out\" />\r\n  </component>\r\n</project>
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	
++++ b/.idea/misc.xml	
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_22" default="true" project-jdk-name="openjdk-22" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/out" />
+   </component>
+ </project>
+\ No newline at end of file

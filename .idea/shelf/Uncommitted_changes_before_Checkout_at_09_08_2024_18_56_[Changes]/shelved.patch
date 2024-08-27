@@ -1,0 +1,24 @@
+Index: src/homework10/Sequence.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package homework10;\r\n\r\npublic class Sequence {\r\n    public static int[] filter(int[] array,ByCondition condition){\r\n        int[] result = new int[array.length];\r\n        for(int i=0;i<array.length;i++){\r\n        }\r\n        return result;\r\n    }\r\n\r\n}\r\n
+===================================================================
+diff --git a/src/homework10/Sequence.java b/src/homework10/Sequence.java
+--- a/src/homework10/Sequence.java	
++++ b/src/homework10/Sequence.java	
+@@ -1,11 +1,10 @@
+ package homework10;
+ 
+ public class Sequence {
+-    public static int[] filter(int[] array,ByCondition condition){
+-        int[] result = new int[array.length];
+-        for(int i=0;i<array.length;i++){
+-        }
+-        return result;
++    public static int[] filter(int[] array, ByCondition condition) {
++
+     }
++
+ 
+ }
++

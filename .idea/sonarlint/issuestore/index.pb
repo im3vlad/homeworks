@@ -49,3 +49,9 @@ w
 G.idea/sonarlint/issuestore/9/2/924f089edb4af5ee45c8a9d1129cd28e2b368138,f\a\fa75e75cdcbcdff2b0010bc7325ef5a408f526cd
 Å
 Q.idea/sonarlint/securityhotspotstore/f/7/f749d6e84e896fe764415fea309d005082b6eb50,7\a\7afc4548a29503afcf4fd54d8ba418ccb60227a4
+G
+src/homework11/Car.java,f\a\fa4af062bc54ec8806c01b42f24d21f39fbc0575
+H
+src/homework11/Main.java,6\b\6bf620bf57bb839335a7beaade4261f287d2f39a
+G
+src/homework11/cars.txt,7\b\7ba560ced81b6d1e3d9ef4631a41419e70199b89
