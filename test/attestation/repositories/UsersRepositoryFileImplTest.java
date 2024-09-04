@@ -1,7 +1,6 @@
 package attestation.repositories;
 
 import attestation.model.User;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
@@ -12,12 +11,6 @@ import static org.junit.jupiter.api.Assertions.*;
 class UsersRepositoryFileImplTest {
 
     private UsersRepositoryFileImpl usersRepository = new UsersRepositoryFileImpl();
-
-    @BeforeEach
-    public void setUp(){
-
-    }
-
     @Test
     void createUserDublicateId() {
         //негативный
@@ -42,15 +35,6 @@ class UsersRepositoryFileImplTest {
             usersRepository.createUser(UUID.randomUUID(), "bongo46","46t46".repeat(10),"46t46".repeat(10),
                     "Козельский","Андрей","Александрович",23,false);
         }, "Пароль должен содержать не более 20 символов.");
-    }
-
-    @Test
-    void findById() {
-    }
-
-    @Test
-    void findAll() {
-
     }
 
     @Test
@@ -92,12 +76,4 @@ class UsersRepositoryFileImplTest {
         assertTrue(actualUsers.contains(user));
     }
 
-    @Test
-    void deleteById() {
-    }
-
-    @Test
-    void deleteAll() {
-
-    }
 }

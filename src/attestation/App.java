@@ -9,7 +9,7 @@ import java.util.UUID;
 public class App {
     public static void main(String[] args) {
         UsersRepositoryFileImpl repositoryFile = new UsersRepositoryFileImpl();
-       UUID userId = UUID.randomUUID();
+       /*UUID userId = UUID.randomUUID();
         repositoryFile.createUser(userId, "bingo_45", "45r45",
                 "45r45", "Андропов", "Владислав", "Борисович",
                 36, true);
@@ -17,7 +17,7 @@ public class App {
         repositoryFile.createUser(userId2, "bongo46","46t46","46t46",
                 "Козельский","Андрей","Александрович",23,false);
         //User user = repositoryFile.findById(userId2.toString());
-
+*/
         /* User user = new User();
         user.setId(UUID.fromString("908aaa63-9f92-4fa5-abb1-e5e3a6506ba7"));
         user.setLogin("bk");
@@ -34,8 +34,6 @@ public class App {
         //repositoryFile.deleteAll();
        //repositoryFile.update(user);
         //repositoryFile.findById("39606784-e45f-4f2c-8272-d0818edafa77");
-        System.out.println("УРА");
+        System.out.println("УРА" + repositoryFile.findById("04c78f5e-e47f-4a29-a4ed-ed0606627411"));
     }
-
-
 }

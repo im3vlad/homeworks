@@ -1,0 +1,2 @@
+Person{lastName='Путков', name='Андрей', patromynic='Анатольевич', dateOfBirthday=Sun Jan 19 00:00:00 MSK 1997, numberPhone=89994578324, sex='m', age=35}
+Person{lastName='Рыбак', name='Антон', patromynic='Валерьевич', dateOfBirthday=Tue Jan 23 00:00:00 MSK 1996, numberPhone=89336754567, sex='m', age=2}

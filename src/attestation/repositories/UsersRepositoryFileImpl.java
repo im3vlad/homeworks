@@ -12,6 +12,7 @@ import java.util.stream.Collectors;
 
 public class UsersRepositoryFileImpl implements UsersRepository {
     private List<User> users = new ArrayList<>();
+    private static final String TEXT_FILE_PATH = "C:\\Users\\Anastas\\IdeaProjects\\game\\src\\attestation\\resources\\attestation.txt";
 
     @Override
     public void createUser(UUID id, String login, String password, String confirmPassword,
@@ -49,24 +50,20 @@ public class UsersRepositoryFileImpl implements UsersRepository {
     @Override
     public User findById(String id) {
         users.clear();
-        Scanner scanner = null;
         User user = new User();
-        try {
-            scanner = new Scanner(new File("C:\\Users\\Anastas\\IdeaProjects\\game\\src\\attestation\\resources\\attestation.txt"));
-            while (scanner.hasNextLine()) {
-                String line = scanner.nextLine();
+        try (BufferedReader reader = new BufferedReader(new FileReader(new File(TEXT_FILE_PATH)))) {
+            String line;
+            while ((line = reader.readLine()) != null) {
                 String[] parts = line.split("\\|");
                 if (parts[0].equals(id)) {
                     mapUser(parts, user);
                     break;
                 }
             }
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
         } catch (IOException e) {
-            e.printStackTrace();
-        } finally {
-            if (scanner != null) {
-                scanner.close();
-            }
+            throw new RuntimeException(e);
         }
         return user;
     }
@@ -74,29 +71,22 @@ public class UsersRepositoryFileImpl implements UsersRepository {
     @Override
     public List<User> findAll() {
         users.clear();
-        Scanner scanner = null;
-        try {
-            scanner = new Scanner(new File("C:\\Users\\Anastas\\IdeaProjects\\game\\src\\attestation\\resources\\attestation.txt"));
-            while (scanner.hasNextLine()) {
+        try (BufferedReader reader = new BufferedReader(new FileReader(new File(TEXT_FILE_PATH)))) {
+            String line;
                 User user = new User();
-                String line = scanner.nextLine();
+                while ((line = reader.readLine()) != null) {
                 String[] parts = line.split("\\|");
                 mapUser(parts, user);
                 users.add(user);
             }
         } catch (IOException e) {
             e.printStackTrace();
-        } finally {
-            if (scanner != null) {
-                scanner.close();
-            }
         }
         return users;
     }
 
     @Override
     public void update(User user) {
-        users.clear();
         users = findAll();
         
         Map<UUID, User> userMap = users.stream().collect(Collectors.toMap(User::getId, Function.identity()));
